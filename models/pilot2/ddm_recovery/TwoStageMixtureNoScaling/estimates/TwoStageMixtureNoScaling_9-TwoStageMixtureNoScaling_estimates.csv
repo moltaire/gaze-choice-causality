@@ -1,0 +1,2 @@
+,v,alpha,theta,wp,eta,w_between_altwise,w_between_attwise,b_last,noise,loss,lossfun,model,subject_id
+0,30.0,2.1704,0.2796,0.5644,1.0,0.3508,0.5692,0.0106,1.743,72.0951,BIC,TwoStageMixtureNoScaling,9-TwoStageMixtureNoScaling

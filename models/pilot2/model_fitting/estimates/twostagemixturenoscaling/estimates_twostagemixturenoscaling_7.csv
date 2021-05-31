@@ -1,0 +1,2 @@
+subject,nll,bic,model,alpha,alpha_rec,theta,theta_rec,wp,wp_rec,eta,eta_rec,w_between_attwise,w_between_attwise_rec,w_between_altwise,w_between_altwise_rec,beta,beta_rec,b_last,b_last_rec,nll_rec
+7,95.18570695326208,229.90455328739858,twostagemixturenoscaling,0.29594254986208207,0.7920555040233845,1.0,1.0,1.0,0.41355279731244965,0.0,0.0,1.0,1.0,0.0,0.0,1.9680151594078548,1.6109234248455444,0.02182965362251771,0.10600332601769728,95.97505657092609
