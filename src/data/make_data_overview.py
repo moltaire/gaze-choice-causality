@@ -74,7 +74,8 @@ def summarise_subject(raw_data):
 
     n_choose_nan = n_records - (n_choose_0_all + n_choose_1_all)
     n_choose_higher_p = np.sum(
-        choices.loc[choices["condition"].str.startswith("exp")]["choice"] == choices.loc[choices["condition"].str.startswith("exp")]["higher_p"]
+        choices.loc[choices["condition"].str.startswith("exp")]["choice"]
+        == choices.loc[choices["condition"].str.startswith("exp")]["higher_p"]
     )
 
     # Choose number of choices for dominated alternative in catch trials
@@ -105,12 +106,11 @@ def summarise_subject(raw_data):
     age = reports_string.split('"selfReport"')[0][8:-2]
     self_report = reports_string.split('"comments":"')[0][15:-2]
     comment = reports_string.split('"comments":"')[1][:-2]
-
     # Put everything together
     out = pd.DataFrame(
         dict(
             pid=pid,
-            gender=mc_questionnaire["gender"].lower(),
+            gender=mc_questionnaire.get("gender", np.nan),
             age=age,
             n_records=n_records,
             n_choose_nan=n_choose_nan,
