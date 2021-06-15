@@ -29,6 +29,8 @@ def summarise_subject(raw_data):
 
     # Read won amount
     won_amount = raw_data["wonAmt"].values[0]
+    lucky_number = raw_data["luckyNumber"].values[0]
+    chosen_trial = raw_data["chosenTrial"].values[0]
 
     # Extract only choice data
     choices = (
@@ -116,6 +118,8 @@ def summarise_subject(raw_data):
             n_choose_nan=n_choose_nan,
             n_choose_higher_p=n_choose_higher_p,
             n_choose_dominated=n_choose_dominated,
+            chosen_trial=chosen_trial,
+            lucky_number=lucky_number,
             won_amount=won_amount,
             rg_blind=(mc_questionnaire["redGreenColorBlind"] == "yes"),
             rg_difficult=(mc_questionnaire["redGreenDifficulties"] == "yes"),
@@ -156,6 +160,8 @@ def main():
                     "n_choose_nan",
                     "n_choose_dominated",
                     "n_choose_higher_p",
+                    "chosen_trial",
+                    "lucky_number",
                     "won_amount",
                     "rg_blind",
                     "rg_difficult",
