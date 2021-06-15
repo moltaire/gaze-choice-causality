@@ -26,7 +26,7 @@
     <script src="settings.js"></script>
 
     <!-- Load stimulus file -->
-    <script src="stimuli/conditions_pilot2.js"></script>
+    <script src="stimuli/conditions.js"></script>
     <script src="stimuli/practice.js"></script>
     <script src="stimuli/quiz.js"></script>
 
@@ -53,7 +53,10 @@
       screen_height: screen.height,
     });
 
-    // Counterbalance order of blocks (CONDITION is set by cognition.run to 1 or 2)
+    // Counterbalance order of blocks (CONDITION is set by cognition.run to 1 or 2) If it is not, set it manually to 1
+    if (typeof CONDITION === "undefined") {
+      var CONDITION = 1;
+    }
     if (CONDITION == 1) {
       conditions_block_1 = conditions.filter(function (trial) {
         return trial.block == 0;
@@ -653,14 +656,21 @@
               .get()
               .filter({ phase: "experimental" })
               .values();
-            chosenTrial = experimentalTrials[0];
+            var chosenTrial_idx = Math.floor(Math.random() * (experimentalTrials.length));
+            // experimentalTrials = jsPsych.randomization.repeat(
+            //   experimentalTrials,
+            //   1
+            // );
+            // chosenTrial = experimentalTrials[0];
+            var chosenTrial = experimentalTrials[chosenTrial_idx]
             if (debug_logMessages) {
               console.log("Randomly chosen trial:", chosenTrial);
             }
             if (chosenTrial.chosenM != undefined) {
               chosenGambleString = `
                 <p align="justify">The computer chose trial number ${
-                  Number(chosenTrial.condition.substring(4)) + 1
+                  // Number(chosenTrial.condition.substring(4)) + 1
+                  chosenTrial_idx
                 } where you chose the lottery with a winning probability of ${Math.round(
                 chosenTrial.chosenP * 100
               )}% and possible winning amount of £${(
