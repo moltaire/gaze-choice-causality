@@ -657,11 +657,6 @@
               .filter({ phase: "experimental" })
               .values();
             var chosenTrial_idx = Math.floor(Math.random() * (experimentalTrials.length));
-            // experimentalTrials = jsPsych.randomization.repeat(
-            //   experimentalTrials,
-            //   1
-            // );
-            // chosenTrial = experimentalTrials[0];
             var chosenTrial = experimentalTrials[chosenTrial_idx]
             if (debug_logMessages) {
               console.log("Randomly chosen trial:", chosenTrial);
