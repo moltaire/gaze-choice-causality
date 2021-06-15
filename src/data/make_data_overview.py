@@ -104,7 +104,7 @@ def summarise_subject(raw_data):
         "response"
     ].values[0]
     age = reports_string.split('"selfReport"')[0][8:-2]
-    self_report = reports_string.split('"comments":"')[0][15:-2]
+    self_report = reports_string.split('"comments":"')[0][26:-2]
     comment = reports_string.split('"comments":"')[1][:-2]
     # Put everything together
     out = pd.DataFrame(
