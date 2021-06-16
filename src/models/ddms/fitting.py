@@ -71,13 +71,19 @@ def fit_predict_individual_model(
             ]
             + required_conditions,
         ]
-        n_removed = len(df_s) - len(df_s.dropna(axis=0))
-        df_s = df_s.dropna(axis=0).reset_index(drop=True)
+        n_removed = len(df_s) - len(
+            df_s.loc[df_s[rt_column_name] < model.T_dur].dropna(axis=0)
+        )
+        df_s = (
+            df_s[df_s[rt_column_name] < model.T_dur]
+            .dropna(axis=0)
+            .reset_index(drop=True)
+        )
         print(f"    Data includes {len(df_s)} trials.")
         if verbose > 0:
             if n_removed > 0:
                 print(
-                    f"  Subject {subject}\t{label}\tRemoved {n_removed} trials with missing responses."
+                    f"  Subject {subject}\t{label}\tRemoved {n_removed} trials with missing or slow responses."
                 )
         # Format choice column:
         # pyddm thinks in 'correct' (True, upper bound) and 'error' (False, lower bound)

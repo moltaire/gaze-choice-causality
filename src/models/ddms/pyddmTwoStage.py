@@ -113,12 +113,15 @@ class TwoStagePyDDM(Agent):
             self.model = self.build_model()
             model = self.model
 
-        # Remove undecided trials
-        df = data.loc[data[choice_column_name].isin([0, 1])].copy()
+        # Remove undecided trials and trials with RT out of range
+        df = data.loc[
+            (data[choice_column_name].isin([0, 1]))
+            & (data[rt_column_name] < self.T_dur)
+        ].copy()
         n_removed = len(data) - len(df)
         if n_removed > 0:
             if verbose > 0:
-                print(f"Removed {n_removed} trials with missing responses...")
+                print(f"Removed {n_removed} trials with missing or slow responses...")
 
         # Format choice column:
         # pyddm thinks in 'correct' (True, upper bound) and 'error' (False, lower bound)
