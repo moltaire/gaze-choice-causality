@@ -1,12 +1,44 @@
 # -*- coding: utf-8 -*-
 import argparse
 import json
+import sys
 from os import listdir
 from os.path import join
 
 import numpy as np
 import pandas as pd
 from src.utilities import mkdir_if_needed
+
+
+def query_yes_no(question, default="no"):
+    """Ask a yes/no question via raw_input() and return their answer.
+
+    "question" is a string that is presented to the user.
+    "default" is the presumed answer if the user just hits <Enter>.
+            It must be "yes" (the default), "no" or None (meaning
+            an answer is required of the user).
+
+    The "answer" return value is True for "yes" or False for "no".
+    """
+    valid = {"yes": True, "y": True, "ye": True, "no": False, "n": False}
+    if default is None:
+        prompt = " [y/n] "
+    elif default == "yes":
+        prompt = " [Y/n] "
+    elif default == "no":
+        prompt = " [y/N] "
+    else:
+        raise ValueError("invalid default answer: '%s'" % default)
+
+    while True:
+        sys.stdout.write(question + prompt)
+        choice = input().lower()
+        if default is not None and choice == "":
+            return valid[default]
+        elif choice in valid:
+            return valid[choice]
+        else:
+            sys.stdout.write("Please respond with 'yes' or 'no' " "(or 'y' or 'n').\n")
 
 
 def summarise_subject(raw_data):
@@ -22,6 +54,9 @@ def summarise_subject(raw_data):
     - Response to seriousness
     - Self-reported choice strategy
     - Subject-reported comments
+
+    The summary also checks exclusion criteria specified in the preregistration:
+        -
     """
 
     # Read participant ID
@@ -101,6 +136,10 @@ def summarise_subject(raw_data):
         ].values[-1][0]
     )
 
+    rg_blind = mc_questionnaire["redGreenColorBlind"] == "yes"
+    rg_difficult = mc_questionnaire["redGreenDifficulties"] == "yes"
+    serious = mc_questionnaire["seriousness"] == "I have taken part seriously."
+
     # Read strategy and comment
     reports_string = raw_data.loc[raw_data["trial_type"] == "survey-text"][
         "response"
@@ -108,10 +147,44 @@ def summarise_subject(raw_data):
     age = reports_string.split('"selfReport"')[0][8:-2]
     self_report = reports_string.split('"comments":"')[0][26:-2]
     comment = reports_string.split('"comments":"')[1][:-2]
+
+    # Exclusion criteria
+    # Automatic rejection:
+    # 1) More than 4 choices of dominated alternative in catch trials
+    # 2) Red green color blind or difficulties
+    # 3) Reported non-serious participation in the task
+    exclude_automatic = (
+        (n_choose_dominated > 4) or (rg_blind) or (rg_difficult) or (not serious)
+    )
+
+    # Manual rejection
+    # 4) Reported technical difficulties (this needs to be checked manually)
+    # 5) Reported decision strategy suggests that task instructions were misunderstood (needs to be checked manually)
+    # Only check these if automatic checks have not resulted in exclusion
+    exclude_manual = False
+    if not exclude_automatic:
+        exclude_manual = query_yes_no(
+            question=f"ID {pid}\n  Self report: {self_report}\n  Comment: {comment}\n  Exclude for misunderstanding or technical difficulties?"
+        )
+    exclude = exclude_manual or exclude_automatic
+    if exclude:
+        if n_choose_dominated > 4:
+            reason = "Dominated choices"
+        elif rg_blind or rg_difficult:
+            reason = "Red-green problems"
+        elif not serious:
+            reason = "Non-serious"
+        elif exclude_manual:
+            reason = "Misunderstanding or technical difficulties"
+    else:
+        reason = None
+
     # Put everything together
     out = pd.DataFrame(
         dict(
             pid=pid,
+            exclude=exclude,
+            exclusion_reason=reason,
             gender=mc_questionnaire.get("gender", np.nan),
             age=age,
             n_records=n_records,
@@ -121,9 +194,9 @@ def summarise_subject(raw_data):
             chosen_trial=chosen_trial,
             lucky_number=lucky_number,
             won_amount=won_amount,
-            rg_blind=(mc_questionnaire["redGreenColorBlind"] == "yes"),
-            rg_difficult=(mc_questionnaire["redGreenDifficulties"] == "yes"),
-            serious=(mc_questionnaire["seriousness"] == "I have taken part seriously."),
+            rg_blind=rg_blind,
+            rg_difficult=rg_difficult,
+            serious=serious,
             self_report=self_report,
             comment=comment,
         ),
@@ -153,6 +226,8 @@ def main():
                 [
                     "subject_id",
                     "pid",
+                    "exclude",
+                    "exclusion_reason",
                     "gender",
                     "age",
                     "run_id",

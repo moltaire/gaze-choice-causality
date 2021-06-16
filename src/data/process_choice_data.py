@@ -248,6 +248,13 @@ def main():
             subject_summary["run_id"] == df["run_id"].values[0], "subject_id"
         ].values[0]
 
+        # Check for exclusion
+        if subject_summary.loc[
+            subject_summary["run_id"] == df["run_id"].values[0], "exclude"
+        ].values[0]:
+            print(f"Skipping data for subject {subject_id} due to exclusion criteria.")
+            continue
+
         choices_s = preprocess_choice_data(df)
         choices_s["subject_id"] = subject_id
         choices_s["trial"] = np.arange(len(choices_s))
