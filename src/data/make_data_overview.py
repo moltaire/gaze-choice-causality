@@ -65,6 +65,11 @@ def summarise_subject(raw_data):
     # Read won amount
     won_amount = raw_data["wonAmt"].values[0]
     lucky_number = raw_data["luckyNumber"].values[0]
+    if (
+        won_amount == '"'
+    ):  # This happens, when a trial was chosen, where no response was given:
+        won_amount = 0
+        lucky_number = np.nan
     chosen_trial = raw_data["chosenTrial"].values[0]
 
     # Extract only choice data
