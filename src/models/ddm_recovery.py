@@ -173,7 +173,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data-file",
         help="Processed choices.csv file",
-        default="data/processed/pilot2/choices.csv",
+        default="data/processed/main/choices.csv",
     )
 
     parser.add_argument(

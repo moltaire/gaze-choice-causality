@@ -89,7 +89,7 @@ ddm_recovery: models/$(TASK_VERSION)/ddm_recovery/ddm_recovery_results.pkl model
 
 models/$(TASK_VERSION)/ddm_recovery/ddm_recovery_results.pkl models/$(TASK_VERSION)/ddm_recovery/estimates.csv models/$(TASK_VERSION)/ddm_recovery/predictions.csv models/$(TASK_VERSION)/ddm_recovery/synthetic.csv &: src/models/ddm_recovery.py models/$(TASK_VERSION)/ddm_fitting/ddm_fitting_results.pkl
 	mkdir -p models/$(TASK_VERSION)/ddm_recovery
-	python3 src/models/ddm_recovery.py --ddm-fitting-dir models/$(TASK_VERSION)/ddm_fitting --output-dir models/$(TASK_VERSION)/ddm_recovery --overwrite $(OVERWRITE) --n-cores $(N_CORES) --n-runs $(N_RUNS_DDM)
+	python3 src/models/ddm_recovery.py --ddm-fitting-dir models/$(TASK_VERSION)/ddm_fitting --output-dir models/$(TASK_VERSION)/ddm_recovery --data-file data/processed/$(TASK_VERSION)/choices.csv --overwrite $(OVERWRITE) --n-cores $(N_CORES) --n-runs $(N_RUNS_DDM)
 
 # 3.5 DDM Recovery Figures
 ddm_recovery_figures: models/$(TASK_VERSION)/ddm_recovery/ddm_recovery_results.pkl models/$(TASK_VERSION)/ddm_recovery/estimates.csv models/$(TASK_VERSION)/ddm_recovery/predictions.csv models/$(TASK_VERSION)/ddm_recovery/synthetic.csv src/visualization/ddm_recovery_figures.py
