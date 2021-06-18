@@ -1,4 +1,3 @@
-glm_idata.nc
 
 notebooks/
 reports/private
@@ -6,6 +5,8 @@ reports/private
 # Ignore large concatenated prediction dataframes. They will be built from individual data if needed
 synthetic.csv
 predictions.csv
+# Also ignore other large files
+glm_idata.nc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
