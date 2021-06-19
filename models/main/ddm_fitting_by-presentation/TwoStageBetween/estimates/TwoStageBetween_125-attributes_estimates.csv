@@ -1,2 +1,2 @@
 ,wp,eta,v,b_last,noise,loss,lossfun,model,subject_id
-0,0.6755,1.0,9.4564,0.0103,0.9888,76.5708,BIC,TwoStageBetween,125-attributes
+0,0.6755,1.0,9.4552,0.0103,0.9888,76.5708,BIC,TwoStageBetween,125-attributes

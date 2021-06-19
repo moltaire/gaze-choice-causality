@@ -1,0 +1,10 @@
+Model(name='TwoStageMixtureNoScaling',
+      drift=TwoStageMixtureDrift(v=Fitted(11.541722642666903, minval=0, maxval=30), alpha=Fitted(0.1975446800090018, minval=0, maxval=5), theta=Fitted(1.0, minval=0, maxval=1), wp=Fitted(0.9229641225293065, minval=0, maxval=1), eta=Fitted(0.6663642409957227, minval=0, maxval=1), w_between_altwise=Fitted(0.2642672582814018, minval=0, maxval=1), w_between_attwise=Fitted(1.0, minval=0, maxval=1), b_last=Fitted(0.006149663736597563, minval=-1, maxval=1)),
+      noise=NoiseConstant(noise=Fitted(1.4178414585270787, minval=0.001, maxval=4)),
+      bound=BoundConstant(B=1),
+      IC=ICPointSourceCenter(),
+      overlay=OverlayNone(),
+      dx=0.01,
+      dt=0.01,
+      T_dur=4,
+  fitresult=FitResult(fitting_method='differential_evolution', method='auto', loss='BIC', value=157.35848712645503, nparams=9, samplesize=140, mess=''))

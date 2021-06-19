@@ -1,2 +1,2 @@
-,wp,eta,v,b_last,noise,loss,lossfun,model,subject_id
-0,0.5851,0.7691,9.6943,0.4815,1.265,155.1733,BIC,TwoStageBetween,92-alternatives
+,wp,v,noise,loss,lossfun,model,subject_id
+0,0.5851,8.5758,1.265,146.6763,BIC,TwoStageBetween,92-alternatives

@@ -1,10 +1,10 @@
 Model(name='TwoStageBetween',
-      drift=TwoStageBetweenDrift(wp=Fitted(0.259237587076802, minval=0, maxval=1), eta=Fitted(0.5225016624301756, minval=0, maxval=1), v=Fitted(8.668400327507285, minval=0, maxval=30), b_last=Fitted(0.019348321074362147, minval=-1, maxval=1)),
-      noise=NoiseConstant(noise=Fitted(1.0187774608101412, minval=0.001, maxval=4)),
+      drift=TwoStageBetweenDrift(wp=Fitted(0.25952380589269414, minval=0, maxval=1), eta=Fitted(0.5176231337737596, minval=0, maxval=1), v=Fitted(8.706220291174208, minval=0, maxval=30), b_last=Fitted(0.019245907490911422, minval=-1, maxval=1)),
+      noise=NoiseConstant(noise=Fitted(1.0187845498424704, minval=0.001, maxval=4)),
       bound=BoundConstant(B=1),
       IC=ICPointSourceCenter(),
       overlay=OverlayNone(),
       dx=0.01,
       dt=0.01,
       T_dur=4,
-  fitresult=FitResult(fitting_method='differential_evolution', method='auto', loss='BIC', value=85.25861878151706, nparams=5, samplesize=70, mess=''))
+  fitresult=FitResult(fitting_method='differential_evolution', method='auto', loss='BIC', value=85.25846756903371, nparams=5, samplesize=70, mess=''))

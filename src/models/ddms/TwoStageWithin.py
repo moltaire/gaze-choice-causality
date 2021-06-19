@@ -31,8 +31,6 @@ class TwoStageWithin(TwoStagePyDDM):
         eu0 = trial["p0"] * trial["m0"] ** self.agentVars.alpha
         eu1 = trial["p1"] * trial["m1"] ** self.agentVars.alpha
 
-        self.agentVars.theta = self.agentVars.theta
-
         drift = trial["g0"] * (eu0 - self.agentVars.theta * eu1) + trial["g1"] * (
             self.agentVars.theta * eu0 - eu1
         )
