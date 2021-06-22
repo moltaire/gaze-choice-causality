@@ -99,30 +99,37 @@ def make_psychometric_figure(choices, bins):
     return fig, axs
 
 
-def plot_individual_changes(data, columns=["higher_m", "higher_p"], ax=None):
-    if ax is None:
-        ax = plt.gca()
+def plot_individual_changes(
+    y1, y2, axs=None, markersize_ind=4, markersize_mean=5, alpha=0.02, bins=11
+):
+    if axs is None:
+        fig, axs = plt.subplots(
+            2,
+            1,
+            gridspec_kw={"height_ratios": [1, 2]},
+            figsize=my.utilities.cm2inch(3.25, 4.5),
+            dpi=300,
+        )
 
-    x = np.arange(len(columns))
-
-    for index, data_s in data.iterrows():
-        y = [data_s.loc[column] for column in columns]
-
+    # Bar handles
+    ax = axs[1]
+    x = [0, 1]
+    for y1i, y2i in zip(y1, y2):
         # Plot lines
         ax.plot(
             x,
-            y,
+            [y1i, y2i],
             "-k",
-            alpha=0.1,
+            alpha=alpha,
             zorder=0,
         )
         # Plot some white dots without edge and with full alpha to hide lines overlapping with transparent dots
         ax.plot(
             x,
-            y,
+            [y1i, y2i],
             "ow",
             alpha=1,
-            markersize=6,
+            markersize=markersize_ind,
             zorder=1,
             linewidth=0,
             markeredgecolor="none",
@@ -131,37 +138,41 @@ def plot_individual_changes(data, columns=["higher_m", "higher_p"], ax=None):
         # Plot dots
         ax.plot(
             x,
-            y,
+            [y1i, y2i],
             "ok",
-            alpha=0.1,
+            alpha=alpha,
+            markersize=markersize_ind,
+            markeredgewidth=0,
             zorder=2,
+            clip_on=False,
         )
 
-    # Plot means
-    means = data[columns].mean(axis=0)
-    sems = data[columns].std(axis=0) / np.sqrt(len(data[columns]))
-    ax.plot(x, [means.loc[column] for column in columns], "-o")
-    ax.vlines(
-        x,
-        [means.loc[column] - sems.loc[column] for column in columns],
-        [means.loc[column] + sems.loc[column] for column in columns],
-        color="black",
+    # Plot mean change
+    ax.plot(x, [np.mean(y1), np.mean(y2)], "-o", markersize=markersize_mean)
+    ax.set_xlim(-0.5, 1.5)
+    ax.set_xticks(x)
+
+    # Histogram of individual changes
+    ax = axs[0]
+    ax.hist(y2 - y1, color="black", edgecolor="white", linewidth=0.5, bins=bins)
+
+    return axs
+
+
+def make_individual_change_figure(args):
+    fig, axs = plt.subplots(
+        2,
+        4,
+        figsize=my.utilities.cm2inch(3 * 3.4, 6),
+        sharey="row",
+        gridspec_kw={"height_ratios": [1, 2.5]},
     )
 
-    # Ticks and labels
-    ax.set_xticks(x)
-    ax.set_xticklabels(columns)
-
-    return ax
-
-
-def make_individual_change_figure(args, columns):
-    fig, axs = plt.subplots(2, 2, figsize=my.utilities.cm2inch(7, 9), sharey=True)
-
+    i = 0
     for c, condition in enumerate(["duration", "sequence"]):
         for p, presentation in enumerate(["alternatives", "attributes"]):
 
-            ax = axs[c, p]
+            axs_i = axs[:, i]
 
             # Load data that was used for the corresponding statistical analysis:
             data = pd.read_csv(
@@ -173,14 +184,12 @@ def make_individual_change_figure(args, columns):
             )
 
             # Plot
-            plot_individual_changes(data, columns=columns, ax=ax)
-            ax.set_xlim(-0.25, 1.25)
-            ax.set_ylim(0, 1)
-            ax.set_xticklabels([column.replace("_", " ") for column in columns])
-            if c == 0:
-                ax.set_title(f"{presentation[:-1].capitalize()}-wise")
-            else:
-                ax.set_xlabel("Favoured")
+            axs_i = plot_individual_changes(
+                y1=data["higher_m"],
+                y2=data["higher_p"],
+                axs=axs_i,
+                bins=np.arange(-0.4, 0.41, 0.05),
+            )
 
             # Read BEST result
             summary = pd.read_csv(
@@ -190,24 +199,91 @@ def make_individual_change_figure(args, columns):
                 ),
                 index_col=0,
             )
-            annotation = (
-                f"$d$ = {summary.loc['d', 'mean']:.2f} "
-                + f"[{summary.loc['d', 'hdi_2.5%']:.2f}, "
-                + f"{summary.loc['d', 'hdi_97.5%']:.2f}]"
+
+            # Read BF t-test result
+            bft = pd.read_csv(
+                join(
+                    args.choice_analyses_dir,
+                    f"ttestbf-directed_{condition}_{presentation}.csv",
+                ),
+                index_col=0,
             )
 
-            my.utilities.horizontal_text_line(
-                annotation, 0, 1, 0.95, lineTextGap=0.01, ax=ax, fontsize=4
+            # Make stats annotation
+            axs_i[1].text(
+                0.5,
+                1.3,
+                f'$d$ = {summary.loc["d", "mean"]:.2f} [{summary.loc["d", "hdi_2.5%"]:.2f}, {summary.loc["d", "hdi_97.5%"]:.2f}]\n'
+                + "BF$_{10}$ = "
+                + f'{bft["bf"].values[0]:.2f}',
+                ha="center",
+                va="center",
+                transform=axs_i[1].transAxes,
+                fontsize=4,
+                bbox=dict(boxstyle="round,pad=.4", fc="none"),
             )
 
-            # Ticks
-            if p == 1:
-                ax.yaxis.set_tick_params(labelbottom=True)
-            else:
-                ax.set_ylabel(f"{condition.capitalize()}\n\nP(Choose higher p)")
+            # Labels
+            if condition == "duration":
+                xlabel = "Shown longer"
+            elif condition == "sequence":
+                xlabel = "Shown last"
+            if presentation == "alternatives":
+                xticklabels = ["$Hm$", "$Hp$"]
+            elif presentation == "attributes":
+                xticklabels = ["$m$", "$p$"]
+            axs_i[1].set_xticks([0, 1])
+            axs_i[1].set_xticklabels(xticklabels)
+            axs_i[1].set_xlabel(xlabel)
+            axs_i[0].set_title(f"{presentation[:-1].capitalize()}-\nwise")
+            axs_i[0].set_xlabel("$\Delta$P(Choose $Hp$)")
+            i += 1
+    axs[0, 0].set_ylabel("N")
+    axs[1, 0].set_ylabel("P(Choose $Hp$)")
+    for ax in axs[1, :]:
+        ax.set_ylim(0, 1)
+    for ax in axs[0, :]:
+        xticks = np.arange(-0.4, 0.41, 0.2)
+        ax.set_xticks(xticks)
+        ax.set_xticklabels([np.round(val, 2) if val != 0 else "0" for val in xticks])
+        ax.set_xlim(-0.35, 0.35)
+    fig.align_ylabels(axs)
+    fig.tight_layout(h_pad=0, w_pad=4)
+    fig.text(
+        np.mean(
+            [
+                fig.axes[i].get_position().get_points()[0][0]
+                + 0.5 * fig.axes[i].get_position().width
+                for i in [0, 1]
+            ]
+        ),
+        1,
+        "Duration",
+        va="bottom",
+        ha="center",
+    )
+    fig.text(
+        np.mean(
+            [
+                fig.axes[i].get_position().get_points()[0][0]
+                + 0.5 * fig.axes[i].get_position().width
+                for i in [2, 3]
+            ]
+        ),
+        1,
+        "Sequence",
+        va="bottom",
+        ha="center",
+    )
+    my.utilities.label_axes(
+        fig,
+        loc=2 * ([(-0.5, 1.05)] + 3 * [(-0.2, 1.05)]),
+        fontsize=8,
+        fontweight="bold",
+        ha="right",
+        va="center",
+    )
 
-    plt.tight_layout(h_pad=3, w_pad=3)
-    my.utilities.label_axes(fig, fontweight="bold", fontsize=8, loc=(-0.475, 0.975))
     return fig, axs
 
 
@@ -271,7 +347,7 @@ def main():
     choices = choices.loc[choices["condition"].str.startswith("exp")]
 
     # 1. Make Psychometrics Figure
-    ev_bins = np.arange(-2.5, 2.6, 1.).round(2)
+    ev_bins = np.arange(-2.5, 2.6, 1.0).round(2)
     make_psychometric_figure(choices, bins=ev_bins)
     for extension in ["pdf", "png"]:
         plt.savefig(
@@ -283,8 +359,7 @@ def main():
         )
 
     # 2. Make Individual Change Figure
-    columns = ["higher_m", "higher_p"]
-    make_individual_change_figure(args=args, columns=columns)
+    make_individual_change_figure(args=args)
     for extension in ["pdf", "png"]:
         plt.savefig(
             join(

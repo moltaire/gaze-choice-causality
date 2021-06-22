@@ -169,6 +169,18 @@ def run_choice_analyses():
             # Run Bayes Factor t-Test
             bf = my.stats.ttestbf.one_sample_ttestbf(difference)
             bf.to_csv(join(args.output_dir, f"ttestbf_{ivar_label}_{presentation}.csv"))
+            
+            # BF directed
+            bf_directed = my.stats.ttestbf.BayesFactor.extractBF(
+                my.stats.ttestbf.BayesFactor.ttestBF(
+                    difference, nullInterval=[0, np.inf]
+                )
+            )
+            bf_directed.to_csv(
+                join(
+                    args.output_dir, f"ttestbf-directed_{ivar_label}_{presentation}.csv"
+                )
+            )
 
 
 if __name__ == "__main__":
