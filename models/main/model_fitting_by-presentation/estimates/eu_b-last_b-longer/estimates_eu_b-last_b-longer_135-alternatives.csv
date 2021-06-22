@@ -1,0 +1,2 @@
+subject,nll,bic,model,alpha,alpha_rec,beta,beta_rec,b_longer,b_longer_rec,b_last,b_last_rec,nll_rec
+135-alternatives,36.39067455532135,89.77533007884013,eu_b-last_b-longer,2.3697358332525424,3.040097648580986,0.08759473460787305,0.024411972977930664,1.0,-1.0,1.0,-1.0,34.208594525162724

@@ -1,0 +1,2 @@
+subject,nll,bic,model,wp,wp_rec,eta,eta_rec,beta,beta_rec,b_last,b_last_rec,nll_rec
+47-alternatives,0.010166946327122384,16.956759911043285,twostagebetween,1.0,1.0,1.0,1.0,100.0,100.0,0.02422378154796101,0.02422378154796101,0.010166946327122384

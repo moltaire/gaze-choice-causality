@@ -1,0 +1,2 @@
+subject,nll,bic,model,alpha,alpha_rec,theta,theta_rec,beta,beta_rec,b_last,b_last_rec,nll_rec
+68-alternatives,10.28757749778007,37.569135963757574,twostagewithin,3.0,2.961235230695614,1.0,1.0,100.0,100.0,-0.0019043814508873287,-0.003638254536714876,18.57215410980387
