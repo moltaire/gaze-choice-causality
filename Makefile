@@ -115,14 +115,14 @@ reports/figures/ddm_predictions.pdf reports/figures/ddm_predictions.png &: src/v
 static_model_fitting : models/$(TASK_VERSION)/model_fitting/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting/estimates/predictions.csv models/$(TASK_VERSION)/model_fitting_by-presentation/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting_by-presentation/predictions/predictions.csv
 
 # 4.1.1 Parameter estimation, all trials
-models/$(TASK_VERSION)/model_fitting/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting/estimates/predictions.csv &: src/models/model_fitting.py src/models/models.py data/processed/$(TASK_VERSION)/choices.csv
+models/$(TASK_VERSION)/model_fitting/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting/estimates/predictions.csv &: src/models/static_model_fitting.py src/models/staticmodels.py data/processed/$(TASK_VERSION)/choices.csv
 	mkdir -p models/$(TASK_VERSION)/model_fitting
-	python3 src/models/model_fitting.py --verbose 10 --n-cores $(N_CORES) --data-file data/processed/$(TASK_VERSION)/choices.csv --n-runs $(N_RUNS) --overwrite $(OVERWRITE) --optmethod $(OPTMETHOD) --output-dir models/$(TASK_VERSION)/model_fitting
+	python3 src/models/static_model_fitting.py --verbose 10 --n-cores $(N_CORES) --data-file data/processed/$(TASK_VERSION)/choices.csv --n-runs $(N_RUNS) --overwrite $(OVERWRITE) --optmethod $(OPTMETHOD) --output-dir models/$(TASK_VERSION)/model_fitting
 
 # 4.1.2 Parameter estimation, separately for presentation formats
-models/$(TASK_VERSION)/model_fitting_by-presentation/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting_by-presentation/predictions/predictions.csv &: src/models/model_fitting.py data/processed/$(TASK_VERSION)/choices.csv
+models/$(TASK_VERSION)/model_fitting_by-presentation/estimates/estimates.csv models/$(TASK_VERSION)/model_fitting_by-presentation/predictions/predictions.csv &: src/models/static_model_fitting.py data/processed/$(TASK_VERSION)/choices.csv
 	mkdir -p models/$(TASK_VERSION)/model_fitting_by-presentation
-	python3 src/models/model_fitting.py --verbose 10 --n-cores $(N_CORES) --data-file data/processed/$(TASK_VERSION)/choices.csv --n-runs $(N_RUNS) --optmethod $(OPTMETHOD) --output-dir models/$(TASK_VERSION)/model_fitting_by-presentation --split-by-presentation --overwrite $(OVERWRITE)
+	python3 src/models/static_model_fitting.py --verbose 10 --n-cores $(N_CORES) --data-file data/processed/$(TASK_VERSION)/choices.csv --n-runs $(N_RUNS) --optmethod $(OPTMETHOD) --output-dir models/$(TASK_VERSION)/model_fitting_by-presentation --split-by-presentation --overwrite $(OVERWRITE)
 
 # 4.2 Static model comparison
 static_model_comparison : models/$(TASK_VERSION)/model_comparison/bic_summary.csv models/$(TASK_VERSION)/model_comparison/best_model_counts.csv models/$(TASK_VERSION)/model_comparison/bms_result.pkl
