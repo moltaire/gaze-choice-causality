@@ -204,7 +204,7 @@ def make_individual_change_figure(args):
             bft = pd.read_csv(
                 join(
                     args.choice_analyses_dir,
-                    f"ttestbf_{condition}_{presentation}.csv",
+                    f"ttestbf-directed_{condition}_{presentation}.csv",
                 ),
                 index_col=0,
             )
