@@ -156,6 +156,12 @@ def add_misc_variables(choices):
 
     choices["by_attribute"] = choices["presentation"] == "attributes"
 
+    choices["left_alternative"] = np.where(
+        choices["pL"] == choices["p0"],
+        0,
+        np.where(choices["pL"] == choices["p1"], 1, np.nan),
+    )
+
     return choices
 
 
@@ -178,13 +184,14 @@ def preprocess_choice_data(raw_data):
                 "p1",
                 "m0",
                 "m1",
+                "pL",
                 "sequence",
                 "webgazer_data",
             ]
         ]
         .rename({"condition.1": "condition"}, axis=1)
         .reset_index(drop=True)
-        .astype({"p0": float, "p1": float, "m0": float, "m1": float})
+        .astype({"p0": float, "p1": float, "m0": float, "m1": float, "pL": float})
     )
 
     # Adjust outcome values
@@ -248,6 +255,10 @@ def main():
             subject_summary["run_id"] == df["run_id"].values[0], "subject_id"
         ].values[0]
 
+        # Read screen dimensions
+        width = df["screen_width"].values[0]
+        height = df["screen_height"].values[0]
+
         # Check for exclusion
         if subject_summary.loc[
             subject_summary["run_id"] == df["run_id"].values[0], "exclude"
@@ -259,6 +270,8 @@ def main():
         choices_s["subject_id"] = subject_id
         choices_s["trial"] = np.arange(len(choices_s))
         choices_s["block"] = np.repeat([0, 1], len(choices_s) // 2)
+        choices_s["screen_width"] = width
+        choices_s["screen_height"] = height
         choices.append(
             choices_s[
                 [
@@ -279,6 +292,7 @@ def main():
                     "presentation",
                     "presentation01",
                     "by_attribute",
+                    "left_alternative",
                     "ev0",
                     "ev1",
                     "delta_ev",
@@ -294,6 +308,8 @@ def main():
                     "choose_higher_p",
                     "sequence",
                     "webgazer_data",
+                    "screen_width",
+                    "screen_height",
                 ]
             ]
         )
