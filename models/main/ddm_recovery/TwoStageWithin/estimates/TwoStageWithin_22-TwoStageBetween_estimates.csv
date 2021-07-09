@@ -1,0 +1,2 @@
+,alpha,theta,v,b_last,noise,loss,lossfun,model,subject_id
+0,0.3011,1.0,4.6675,-0.0295,0.8661,355.6181,BIC,TwoStageWithin,22-TwoStageBetween
