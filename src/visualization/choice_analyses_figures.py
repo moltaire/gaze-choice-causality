@@ -100,26 +100,42 @@ def make_psychometric_figure(choices, bins):
 
 
 def plot_individual_changes(
-    y1, y2, axs=None, markersize_ind=4, markersize_mean=5, alpha=0.02, bins=11
+    y1,
+    y2,
+    axs=None,
+    markersize_ind=4,
+    alpha=0.02,
+    bins=11,
+    mean_kwargs={"markersize": 5},
+    cmap=plt.cm.viridis,
+    norm=plt.cm.colors.Normalize(vmin=0, vmax=1),
 ):
     if axs is None:
         fig, axs = plt.subplots(
             2,
             1,
-            gridspec_kw={"height_ratios": [1, 2]},
+            gridspec_kw={"height_ratios": [2, 1]},
             figsize=my.utilities.cm2inch(3.25, 4.5),
             dpi=300,
         )
 
     # Bar handles
-    ax = axs[1]
+    ax = axs[0]
     x = [0, 1]
     for y1i, y2i in zip(y1, y2):
+        if cmap is not None:
+            if norm is None:
+                norm = plt.cm.colors.NoNorm
+            color = cmap(norm(y2i - y1i))
+        else:
+            color = "black"
+
         # Plot lines
         ax.plot(
             x,
             [y1i, y2i],
-            "-k",
+            "-",
+            color=color,
             alpha=alpha,
             zorder=0,
         )
@@ -139,7 +155,8 @@ def plot_individual_changes(
         ax.plot(
             x,
             [y1i, y2i],
-            "ok",
+            "o",
+            color=color,
             alpha=alpha,
             markersize=markersize_ind,
             markeredgewidth=0,
@@ -148,13 +165,27 @@ def plot_individual_changes(
         )
 
     # Plot mean change
-    ax.plot(x, [np.mean(y1), np.mean(y2)], "-o", markersize=markersize_mean)
+    if cmap is not None:
+        if norm is None:
+            norm = plt.cm.colors.NoNorm
+        color = cmap(norm(np.mean(y2) - np.mean(y1)))
+    else:
+        color = mean_kwargs.get(color, "C0")
+    mean_kwargs.pop("color", None)
+    ax.plot(
+        x,
+        [np.mean(y1), np.mean(y2)],
+        "-o",
+        color="black",
+        markerfacecolor=color,
+        **mean_kwargs,
+    )
     ax.set_xlim(-0.5, 1.5)
     ax.set_xticks(x)
 
     # Histogram of individual changes
-    ax = axs[0]
-    ax.hist(y2 - y1, color="black", edgecolor="white", linewidth=0.5, bins=bins)
+    ax = axs[1]
+    my.plots.hist(y2 - y1, norm=norm, cm=cmap, bins=bins, ax=ax)
 
     return axs
 
@@ -163,14 +194,25 @@ def make_individual_change_figure(args):
     fig, axs = plt.subplots(
         2,
         4,
-        figsize=my.utilities.cm2inch(3 * 3.4, 6),
+        figsize=my.utilities.cm2inch(12, 7),
         sharey="row",
-        gridspec_kw={"height_ratios": [1, 2.5]},
+        gridspec_kw={"height_ratios": [2, 1]},
+        dpi=300,
     )
 
     i = 0
     for c, condition in enumerate(["duration", "sequence"]):
         for p, presentation in enumerate(["alternatives", "attributes"]):
+            if condition == "duration":
+                if presentation == "alternatives":
+                    h = "H1a"
+                else:
+                    h = "H1b"
+            else:
+                if presentation == "alternatives":
+                    h = "H2a"
+                else:
+                    h = "H2b"
 
             axs_i = axs[:, i]
 
@@ -181,14 +223,6 @@ def make_individual_change_figure(args):
                     f"best_{condition}_{presentation}_data.csv",
                 ),
                 index_col=0,
-            )
-
-            # Plot
-            axs_i = plot_individual_changes(
-                y1=data["higher_m"],
-                y2=data["higher_p"],
-                axs=axs_i,
-                bins=np.arange(-0.4, 0.41, 0.05),
             )
 
             # Read BEST result
@@ -209,16 +243,28 @@ def make_individual_change_figure(args):
                 index_col=0,
             )
 
+            # Plot
+            axs_i = plot_individual_changes(
+                y1=data["higher_m"],
+                y2=data["higher_p"],
+                axs=axs_i,
+                bins=np.arange(-0.425, 0.426, 0.05),
+                cmap=plt.cm.coolwarm,
+                norm=plt.cm.colors.TwoSlopeNorm(vmin=-0.2, vcenter=0, vmax=0.2),
+                alpha=0.1,
+            )
+            axs_i[1].set_ylim(0, 50)
+
             # Make stats annotation
-            axs_i[1].text(
+            axs_i[0].text(
                 0.5,
-                1.3,
+                1.2,
                 f'$d$ = {summary.loc["d", "mean"]:.2f} [{summary.loc["d", "hdi_2.5%"]:.2f}, {summary.loc["d", "hdi_97.5%"]:.2f}]\n'
                 + "BF$_{10}$ = "
                 + f'{bft["bf"].values[0]:.2f}',
                 ha="center",
                 va="center",
-                transform=axs_i[1].transAxes,
+                transform=axs_i[0].transAxes,
                 fontsize=4,
                 bbox=dict(boxstyle="round,pad=.4", fc="none"),
             )
@@ -232,23 +278,26 @@ def make_individual_change_figure(args):
                 xticklabels = ["$Hm$", "$Hp$"]
             elif presentation == "attributes":
                 xticklabels = ["$m$", "$p$"]
-            axs_i[1].set_xticks([0, 1])
-            axs_i[1].set_xticklabels(xticklabels)
-            axs_i[1].set_xlabel(xlabel)
-            axs_i[0].set_title(f"{presentation[:-1].capitalize()}-\nwise")
-            axs_i[0].set_xlabel("$\Delta$P(Choose $Hp$)")
+            axs_i[0].set_xticks([0, 1])
+            axs_i[0].set_xticklabels(xticklabels)
+            axs_i[0].set_xlabel(xlabel, labelpad=1)
+            axs_i[0].set_title(
+                r"$\bf{" + h + "}$" + f"\n\n{presentation[:-1].capitalize()}-\nwise",
+                y=1.3,
+            )
+            axs_i[1].set_xlabel("$\Delta$P(Choose $Hp$)")
             i += 1
-    axs[0, 0].set_ylabel("N")
-    axs[1, 0].set_ylabel("P(Choose $Hp$)")
-    for ax in axs[1, :]:
-        ax.set_ylim(0, 1)
+    axs[1, 0].set_ylabel("N")
+    axs[0, 0].set_ylabel("P(Choose $Hp$)")
     for ax in axs[0, :]:
+        ax.set_ylim(0, 1)
+    for ax in axs[1, :]:
         xticks = np.arange(-0.4, 0.41, 0.2)
         ax.set_xticks(xticks)
         ax.set_xticklabels([np.round(val, 2) if val != 0 else "0" for val in xticks])
         ax.set_xlim(-0.35, 0.35)
     fig.align_ylabels(axs)
-    fig.tight_layout(h_pad=0, w_pad=4)
+    fig.tight_layout(h_pad=2, w_pad=4)
     fig.text(
         np.mean(
             [
@@ -257,10 +306,11 @@ def make_individual_change_figure(args):
                 for i in [0, 1]
             ]
         ),
-        1,
+        0.95,
         "Duration",
         va="bottom",
         ha="center",
+        fontweight="bold",
     )
     fig.text(
         np.mean(
@@ -270,20 +320,20 @@ def make_individual_change_figure(args):
                 for i in [2, 3]
             ]
         ),
-        1,
+        0.95,
         "Sequence",
         va="bottom",
         ha="center",
+        fontweight="bold",
     )
     my.utilities.label_axes(
         fig,
-        loc=2 * ([(-0.5, 1.05)] + 3 * [(-0.2, 1.05)]),
+        loc=2 * ([(-0.4, 1.0)] + 3 * [(-0.15, 1.0)]),
         fontsize=8,
         fontweight="bold",
         ha="right",
         va="center",
     )
-
     return fig, axs
 
 
