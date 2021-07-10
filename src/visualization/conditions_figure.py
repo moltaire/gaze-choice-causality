@@ -12,28 +12,6 @@ from src.utilities import mkdir_if_needed
 matplotlib = my.utilities.set_mpl_defaults(matplotlib)
 
 
-def cmap_histogram(x, bins=5, cm=None, norm=None, ax=None, max_cm_value=None):
-    "https://stackoverflow.com/a/23062183"
-    if ax is None:
-        ax = plt.gca()
-    if cm is None:
-        cm = plt.cm.get_cmap("viridis")
-    if norm is None:
-        norm = lambda x: x
-
-    # Plot histogram.
-    n, bins, patches = ax.hist(x, bins)
-    bin_centers = 0.5 * (bins[:-1] + bins[1:])
-
-    # scale values to interval [0,1]
-    col = bin_centers - min(bin_centers)
-
-    for c, p in zip(col, patches):
-        plt.setp(p, "facecolor", cm(norm(c)))
-
-    return ax
-
-
 def plot_choice_problems(
     problems,
     marker="-o",
@@ -98,7 +76,7 @@ def make_trial_figure(
     implied_alpha_max=3,
 ):
 
-    cm = plt.cm.get_cmap("coolwarm")
+    cm = plt.cm.get_cmap("cividis")
     norm = matplotlib.colors.TwoSlopeNorm(vcenter=1, vmin=0, vmax=implied_alpha_max)
 
     bin_centers = 0.5 * (bins[:-1] + bins[1:])
@@ -120,15 +98,14 @@ def make_trial_figure(
     )
 
     # Histogram of implied alphas
-    axs[1] = cmap_histogram(
+    axs[1] = my.plots.hist(
         core["implied_alpha"], bins=bins, cm=cm, norm=norm, ax=axs[1]
     )
     axs[1].set_title("Implied " + r"$\alpha$" + "\n if indifferent")
     axs[1].set_xlabel(r"$\alpha$")
     axs[1].yaxis.get_major_locator().set_params(integer=True)  # force integer y-ticks
     axs[1].set_ylabel("Frequency")
-    axs[1].set_xticks(bin_centers)
-    axs[1].set_xticklabels(bin_centers)
+    axs[1].set_ylim(0, 2)
 
     # Catch problems
     axs[2].set_title("Catch trials")
@@ -160,7 +137,7 @@ def main():
         core, catch, alpha_core=0.5, alpha_catch=0.3, bins=np.arange(-0.1, 3.11, 0.2)
     )
     axs[1].set_xticks(np.arange(0, 3.1, 1))
-    axs[1].set_xticklabels(np.arange(0, 3.1, 1))
+    axs[1].set_xticklabels(np.arange(0, 3.1, 1).astype(int))
     plt.tight_layout(w_pad=3)
     my.utilities.label_axes(
         fig, fontweight="bold", fontsize=8, loc=[(-0.45, 1), (-0.35, 1), (-0.45, 1)]
