@@ -27,6 +27,15 @@ def main():
         "v",
         "noise",
     ]
+    parameter_labels = {
+        "alpha": r"$\alpha$",
+        "wp": r"$w_p$",
+        "eta": r"$\eta$",
+        "theta": r"$\theta$",
+        "b_last": r"$b_{last}$",
+        "v": r"$v$",
+        "noise": r"$\sigma$",
+    }
     est_gen = (
         pd.read_csv(
             args.estimates_file_fitting,
@@ -59,7 +68,10 @@ def main():
         noise=[0, 5],
     )
     models = ["TwoStageWithin", "TwoStageBetween"]  # est["gen_model"].unique()
-    model_labels = models
+    model_labels = {
+        "TwoStageWithin": "Alternative-wise\nintegration",
+        "TwoStageBetween": "Attribute-wise\nintegration",
+    }
     df = est
     df["rec_model"] = df["model"]
 
@@ -71,7 +83,7 @@ def main():
         figsize=my.utilities.cm2inch(len(parameters) * width, len(models) * height),
     )
 
-    for m, (model, model_label) in enumerate(zip(models, model_labels)):
+    for m, model in enumerate(models):
 
         for p, parameter in enumerate(parameters):
             ax = axs[m, p]
@@ -80,11 +92,11 @@ def main():
 
             # Labels
             if p == 0:
-                ax.set_ylabel(f"{model_label}\n\nRecovered")
+                ax.set_ylabel(f"{model_labels[model]}\n\nRecovered")
             if m == (len(models) - 1):
                 ax.set_xlabel("Generating")
             if m == 0:
-                ax.set_title(parameter)
+                ax.set_title(parameter_labels[parameter])
 
             # Linear model plot
             gen_values = df_m[f"gen_{parameter}"].values
@@ -107,7 +119,7 @@ def main():
                     rec_values,
                     ax=ax,
                     run_correlation=True,
-                    scatter_kws={"clip_on": True},
+                    scatter_kws={"clip_on": True, "alpha": 0.5},
                     xrange=bounds[parameter],
                     family="student",
                     sample_kwargs={"cores": 1},
@@ -154,7 +166,9 @@ def main():
 
     # Make a plot
     fig, axs = plt.subplots(figsize=my.utilities.cm2inch(width, height))
-    ax = my.plots.model_recovery(mpp=mpps, xp=xps, model_labels=model_labels)
+    ax = my.plots.model_recovery(
+        mpp=mpps, xp=xps, model_labels=[model_labels[model] for model in models]
+    )
     for extension in ["pdf", "png"]:
         plt.savefig(
             join(args.output_dir, f"ddm_recovery_models.{extension}"),

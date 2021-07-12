@@ -8,7 +8,6 @@ from multiprocess import Pool
 from src.models.ddms.fitting import fit_predict_individual_model
 from src.models.ddms.TwoStageBetween import TwoStageBetween
 from src.models.ddms.TwoStageWithin import TwoStageWithin
-from src.models.ddms.TwoStageMixtureNoScaling import TwoStageMixtureNoScaling
 from src.models.ddms.TwoStageBetween_altwise import TwoStageBetween_altwise
 from src.models.ddms.TwoStageWithin_attwise import TwoStageWithin_attwise
 from src.utilities import mkdir_if_needed, str2bool
@@ -17,7 +16,7 @@ from tqdm import tqdm
 
 def model_generator(presentation, dx=0.01, dt=0.01, T_dur=3):
     if presentation == "all":
-        model_classes = [TwoStageBetween, TwoStageWithin, TwoStageMixtureNoScaling]
+        model_classes = [TwoStageBetween, TwoStageWithin]
     elif presentation == "alternatives":
         model_classes = [TwoStageWithin, TwoStageBetween_altwise]
     elif presentation == "attributes":
@@ -53,7 +52,6 @@ def main():
             model_class = {
                 "TwoStageWithin": TwoStageWithin,
                 "TwoStageBetween": TwoStageBetween,
-                "TwoStageMixture": TwoStageMixtureNoScaling,
             }[model_name]
         elif presentation == "attributes":
             model_class = {
@@ -113,7 +111,7 @@ def main():
             if args.split_by_presentation:
                 model_names = ["TwoStageWithin", "TwoStageBetween"]
             else:
-                model_names = ["TwoStageWithin", "TwoStageBetween", "TwoStageMixture"]
+                model_names = ["TwoStageWithin", "TwoStageBetween"]
             results = pool.map(
                 fit_predict_individual_model_wrap,
                 product(
