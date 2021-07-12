@@ -243,6 +243,23 @@ def make_individual_change_figure(args):
                 index_col=0,
             )
 
+            ## Determine statistical credibility of effect larger than 0
+            ### Positive difference
+            if (summary.loc["d", "hdi_2.5%"] > 0) and (
+                summary.loc["d", "hdi_97.5%"] > 0
+            ):
+                color = plt.cm.coolwarm(1.0)
+                lw = 1.0
+            ### Negative difference
+            elif (summary.loc["d", "hdi_2.5%"] < 0) and (
+                summary.loc["d", "hdi_97.5%"] < 0
+            ):
+                color = plt.cm.coolwarm(0.0)
+                lw = 0.75
+            else:
+                color = plt.cm.coolwarm(0.5)
+                lw = 0.75
+
             # Plot
             axs_i = plot_individual_changes(
                 y1=data["higher_m"],
@@ -250,10 +267,36 @@ def make_individual_change_figure(args):
                 axs=axs_i,
                 bins=np.arange(-0.425, 0.426, 0.05),
                 cmap=plt.cm.coolwarm,
-                norm=plt.cm.colors.TwoSlopeNorm(vmin=-0.2, vcenter=0, vmax=0.2),
+                norm=plt.cm.colors.TwoSlopeNorm(vmin=-0.15, vcenter=0, vmax=0.15),
                 alpha=0.1,
+                mean_kwargs={"lw": lw, "markeredgewidth": lw},
             )
             axs_i[1].set_ylim(0, 50)
+
+            ## Plot mean difference and 95% HDI
+            # Vertical dashed line at 0
+            axs_i[1].axvline(
+                0, color="black", ls="--", lw=0.75, alpha=0.75, zorder=1, dashes=(3, 3)
+            )
+
+            axs_i[1].scatter(
+                summary.loc["difference", "mean"],
+                55,
+                marker=".",
+                s=8,
+                color=color,
+                edgecolor=None,
+                linewidth=0,
+                clip_on=False,
+            )
+            axs_i[1].hlines(
+                55,
+                summary.loc["difference", "hdi_2.5%"],
+                summary.loc["difference", "hdi_97.5%"],
+                lw=0.75,
+                color=color,
+                clip_on=False,
+            )
 
             # Make stats annotation
             axs_i[0].text(
@@ -266,7 +309,7 @@ def make_individual_change_figure(args):
                 va="center",
                 transform=axs_i[0].transAxes,
                 fontsize=4,
-                bbox=dict(boxstyle="round,pad=.4", fc="none"),
+                bbox=dict(boxstyle="round,pad=.6", fc="none", ec=color, lw=lw),
             )
 
             # Labels
@@ -295,7 +338,7 @@ def make_individual_change_figure(args):
         xticks = np.arange(-0.4, 0.41, 0.2)
         ax.set_xticks(xticks)
         ax.set_xticklabels([np.round(val, 2) if val != 0 else "0" for val in xticks])
-        ax.set_xlim(-0.35, 0.35)
+        ax.set_xlim(-0.3, 0.3)
     fig.align_ylabels(axs)
     fig.tight_layout(h_pad=2, w_pad=4)
     fig.text(
