@@ -1,0 +1,17 @@
+model,,alternatives,attributes
+TwoStageWithin,count,178.0,178.0
+TwoStageWithin,mean,102.16,90.97
+TwoStageWithin,std,56.19,55.24
+TwoStageWithin,min,-24.2,-45.39
+TwoStageWithin,25%,62.22,55.04
+TwoStageWithin,50%,96.71,86.88
+TwoStageWithin,75%,132.66,125.54
+TwoStageWithin,max,344.44,310.33
+TwoStageBetween,count,178.0,178.0
+TwoStageBetween,mean,93.27,97.41
+TwoStageBetween,std,57.03,55.36
+TwoStageBetween,min,-45.06,-50.91
+TwoStageBetween,25%,53.63,61.3
+TwoStageBetween,50%,87.81,91.59
+TwoStageBetween,75%,123.41,127.27
+TwoStageBetween,max,338.9,321.62

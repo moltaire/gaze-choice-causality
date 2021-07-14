@@ -33,6 +33,9 @@ def run_ddm_analyses():
         .reset_index()
     )
     bic["diff"] = bic[models[0]] - bic[models[1]]
+    bic.groupby("presentation")[[models[0], models[1]]].describe().T.round(2).to_csv(
+        join(args.output_dir, f"bic-summary_by-presentation.csv")
+    )
     # Note that negative differences indicate that the within-alternative model fits better in a given setting, and positive differences indicate that the between-alternatives model fits better
 
     # Compute difference scores between presentation formats
