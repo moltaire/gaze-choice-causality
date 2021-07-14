@@ -14,6 +14,11 @@ matplotlib = my.utilities.set_mpl_defaults(matplotlib)
 
 
 def main():
+    model_names = {
+        "TwoStageWithin": "Alternative-wise\nintegration",
+        "TwoStageBetween": "Attribute-wise\nintegration",
+    }
+
     # Load parameter estimates file, best fitting model counts, bms-results
     estimates = pd.read_csv(args.estimates_file)
 
@@ -38,13 +43,13 @@ def main():
     # Figure parameters
     model_colors = {model: f"C{m}" for m, model in enumerate(models_sorted)}
 
-    width = 9
+    width = 4.5
     height = 6
 
     fig, axs = plt.subplots(
-        3,
         1,
-        figsize=my.utilities.cm2inch(width, 3 * height),
+        3,
+        figsize=my.utilities.cm2inch(3 * width, height),
     )
 
     # Bar plot of best fitting models
@@ -55,14 +60,20 @@ def main():
         best_model_counts[models_sorted],
         color=[model_colors[model] for model in models_sorted],
     )
+    # Annotate counts
+    for i, n in enumerate(best_model_counts[models_sorted]):
+        ax.annotate(str(n), (i, n + 1), ha="center", fontsize=5)
+
     ax.set_xticks(x)
     ax.set_xticklabels(
-        models_sorted,
-        rotation=90,
+        [model_names[model] for model in models_sorted],
+        rotation=45,
         ha="center",
     )
     ax.set_ylabel("N participants")
     ax.set_title("Ind. best models")
+    ax.set_ylim(0, 100)
+    ax.set_xlim(-0.5, 1.5)
 
     # Exceedance probabilities
     ax = axs[1]
@@ -74,13 +85,13 @@ def main():
     )
     ax.set_xticks(x)
     ax.set_xticklabels(
-        models_sorted,
-        rotation=90,
+        [model_names[model] for model in models_sorted],
+        rotation=45,
         ha="center",
     )
+    ax.set_xlim(-0.5, 1.5)
     ax.set_ylim(0, 1)
-    ax.set_title("Exceedance probability")
-    ax.set_ylabel("xp")
+    ax.set_ylabel("Exceedance probability ($xp$)")
 
     # Violin plot of BICs
     ax = my.plots.violin(
@@ -91,13 +102,21 @@ def main():
     )
     ax.set_xlabel(None)
     ax.set_xticklabels(
-        ax.get_xticklabels(),
-        rotation=90,
+        [model_names[model] for model in models_sorted],
+        rotation=45,
         ha="center",
     )
+    ax.set_xlim(-0.5, 1.5)
+    ax.set_ylim(-200, 800)
     ax.set_ylabel("BIC")
-    ax.set_title("BIC distributions")
-    fig.tight_layout()
+    fig.tight_layout(w_pad=4)
+    my.utilities.label_axes(
+        fig,
+        loc=[(-0.38, 1), (-0.36, 1), (-0.45, 1)],
+        va="center",
+        fontsize=8,
+        fontweight="bold",
+    )
     for extension in ["pdf", "png"]:
         plt.savefig(
             join(args.output_dir, f"{args.filename}{args.label}.{extension}"),
