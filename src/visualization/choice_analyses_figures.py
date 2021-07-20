@@ -299,12 +299,32 @@ def make_individual_change_figure(args):
             )
 
             # Make stats annotation
+            bf_10 = bft["bf"].values[0]
+            if bf_10 >= 3:
+                bf = bf_10
+                bf_label = "BF$_{{+}0}$"
+                bold_str_pre = r"$\bf{"
+                bold_str_post = "}$"
+            elif (1 / bf_10) >= 3:
+                bf_label = "BF$_{0{+}}$"
+                bf = 1 / bf_10
+                bold_str_pre = r"$\bf{"
+                bold_str_post = "}$"
+            else:
+                bf = bf_10
+                bf_label = "BF$_{{+}0}$"
+                bold_str_pre = ""
+                bold_str_post = ""
+
             axs_i[0].text(
                 0.5,
                 1.2,
                 f'$d$ = {summary.loc["d", "mean"]:.2f} [{summary.loc["d", "hdi_2.5%"]:.2f}, {summary.loc["d", "hdi_97.5%"]:.2f}]\n'
-                + "BF$_{10}$ = "
-                + f'{bft["bf"].values[0]:.2f}',
+                + bf_label
+                + " = "
+                + bold_str_pre
+                + f"{bf:.2f}"
+                + bold_str_post,
                 ha="center",
                 va="center",
                 transform=axs_i[0].transAxes,
