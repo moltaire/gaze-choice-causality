@@ -490,6 +490,7 @@ def main():
     )
 
     predictors = [
+        "Intercept",
         "delta_ev_z",
         "duration_favours_fx",
         "last_stage_favours_fx",
@@ -499,10 +500,11 @@ def main():
     ]
 
     predictor_labels = {
-        "delta_ev_z": "ΔEV",
-        "duration_favours_fx": "Duration (+ = longer)",
-        "last_stage_favours_fx": "Sequence (+ = last)",
-        "by_attribute_fx": "Presentation (+ = by att.)",
+        "Intercept": "Intercept",
+        "delta_ev_z": "ΔEV ($Hp - Hm$",
+        "duration_favours_fx": "Duration ($Hp$ or $p$ longer)",
+        "last_stage_favours_fx": "Sequence ($Hp$ or $p$ last)",
+        "by_attribute_fx": "Presentation (by alternative)",
         "duration_favours_fx:by_attribute_fx": "Duration x Presentation",
         "last_stage_favours_fx:by_attribute_fx": "Sequence x Presentation",
     }

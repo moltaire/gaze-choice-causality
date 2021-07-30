@@ -31,7 +31,7 @@ def run_lmm_random_slopes_intercepts(
     """
     model = bmb.Model(data=data[[subject_col, dependent_var] + predictors], dropna=True)
     result = model.fit(
-        f"{dependent_var} ~ 0 + (1|{subject_col}) + "
+        f"{dependent_var} ~ 1 + (1|{subject_col}) + "
         + " + ".join(predictors)
         + " + "
         + " + ".join([f"({predictor}|{subject_col})" for predictor in predictors])
@@ -59,14 +59,15 @@ def run_choice_analyses():
     for predictor in ["duration_favours", "last_stage_favours", "by_attribute"]:
         choices[f"{predictor}_fx"] = np.where(
             choices[predictor] == 0,
-            -0.5,
-            np.where(choices[predictor] == 1, +0.5, np.nan),
+            +0.5,
+            np.where(choices[predictor] == 1, -0.5, np.nan),
         )
 
-    # 1. GLM: choice ~ 1 + ΔEV + longer_shown + favoured_by_last_stage
+    # 1. GLM: choice ~ 1 + ΔEV + longer_shown + favoured_by_last_stage + presentation + interactions
+    choices["choose_hp"] = (choices["choice"] == 0).astype(int)
     glm_idata = run_lmm_random_slopes_intercepts(
         data=choices,
-        dependent_var="choice",
+        dependent_var="choose_hp",
         predictors=[
             "delta_ev_z",
             "duration_favours_fx",
@@ -80,6 +81,7 @@ def run_choice_analyses():
         subject_col="subject_id",
         family="bernoulli",
         cores=1,
+        draws=5000,
     )
     save_idata_results(idata=glm_idata, label="glm", output_dir=args.output_dir)
 
@@ -106,7 +108,7 @@ def run_choice_analyses():
         bf_directed.to_csv(join(args.output_dir, f"ttestbf-directed_{ivar_label}.csv"))
         # BEST
         best_idata = my.stats.best.one_sample_best(
-            cp[1] - cp[0], sigma_low=0.0001, sample_kwargs={"cores": 1}
+            cp[1] - cp[0], sigma_low=0.0001, sample_kwargs={"cores": 1, "draws": 5000}
         )
         save_idata_results(
             idata=best_idata,
@@ -158,7 +160,7 @@ def run_choice_analyses():
 
             # Run BEST
             best_idata = my.stats.best.one_sample_best(
-                difference, sigma_low=0.0001, sample_kwargs={"cores": 1}
+                difference, sigma_low=0.0001, sample_kwargs={"cores": 1, "draws": 5000}
             )
             save_idata_results(
                 idata=best_idata,
@@ -169,7 +171,7 @@ def run_choice_analyses():
             # Run Bayes Factor t-Test
             bf = my.stats.ttestbf.one_sample_ttestbf(difference)
             bf.to_csv(join(args.output_dir, f"ttestbf_{ivar_label}_{presentation}.csv"))
-            
+
             # BF directed
             bf_directed = my.stats.ttestbf.BayesFactor.extractBF(
                 my.stats.ttestbf.BayesFactor.ttestBF(

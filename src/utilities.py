@@ -4,6 +4,7 @@ from os.path import exists, join
 
 import arviz as az
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def mkdir_if_needed(path, verbose=True):
@@ -35,7 +36,14 @@ def save_idata_results(idata, label, output_dir):
         output_dir (stsr): Output directory
     """
     ## Summary
-    az.summary(idata, hdi_prob=0.95).to_csv(join(output_dir, f"{label}_summary.csv"))
+
+    summary = az.summary(idata, hdi_prob=0.95)
+    for var in summary.index.values:
+        if var.endswith("]"):  # skip individual subject parameters
+            continue
+        summary.loc[var, "P>0"] = np.mean(idata.posterior[var].values > 0)
+    summary.to_csv(join(output_dir, f"{label}_summary.csv"))
+
     ## Traceplot
     az.plot_trace(idata, compact=True)
     plt.savefig(join(output_dir, f"{label}_traceplot.png"))
