@@ -14,6 +14,7 @@ matplotlib = my.utilities.set_mpl_defaults(matplotlib)
 
 def plot_choice_problems(
     problems,
+    m_max=10,
     marker="-o",
     color_by="implied_alpha",
     color=None,
@@ -39,7 +40,7 @@ def plot_choice_problems(
 
         ax.plot(
             np.array([problem["p0"], problem["p1"]]),
-            np.array([problem["m0"], problem["m1"]]),
+            m_max * np.array([problem["m0"], problem["m1"]]),
             marker,
             alpha=alpha,
             color=color_problem,
@@ -60,9 +61,9 @@ def plot_choice_problems(
         clb.ax.set_title(cb_title)
 
     ax.set_xlabel("$p$")
-    ax.set_ylabel("$m$")
+    ax.set_ylabel("$m\ (£)$")
     ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
+    ax.set_ylim(0, m_max)
 
     return ax
 
