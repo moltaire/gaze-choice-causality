@@ -12,6 +12,45 @@ from scipy.stats import wilcoxon
 from src.utilities import mkdir_if_needed, save_idata_results
 
 
+def make_choice_probability_table(choices, output_dir):
+    ind_means = (
+        choices.loc[choices["condition"].str.startswith("exp")]
+        .groupby(
+            [
+                "duration_favours_str",
+                "last_stage_favours_str",
+                "presentation",
+                "subject_id",
+            ]
+        )["choose_higher_p"]
+        .mean()
+        .reset_index()
+    )
+    pd.crosstab(
+        ind_means.last_stage_favours_str,
+        [ind_means.presentation, ind_means.duration_favours_str],
+        values=ind_means.choose_higher_p,
+        aggfunc="mean",
+        margins=True,
+    ).round(3).to_csv(join(output_dir, "choice_probability_table.csv"))
+
+    print(
+        (
+            pd.crosstab(
+                ind_means.last_stage_favours_str,
+                [ind_means.presentation, ind_means.duration_favours_str],
+                values=ind_means.choose_higher_p,
+                aggfunc="mean",
+                margins=True,
+            )
+            .round(3)
+            .to_latex()
+        )
+        .replace("higher\\_m", "$Hm$")
+        .replace("higher\\_p", "$Hp$")
+    )
+
+
 def run_lmm_random_slopes_intercepts(
     data, dependent_var, predictors, interactions, subject_col, family, **fit_kwargs
 ):
@@ -82,6 +121,7 @@ def run_choice_analyses():
         family="bernoulli",
         cores=1,
         draws=5000,
+        random_seed=args.seed,
     )
     save_idata_results(idata=glm_idata, label="glm", output_dir=args.output_dir)
 
@@ -108,7 +148,9 @@ def run_choice_analyses():
         bf_directed.to_csv(join(args.output_dir, f"ttestbf-directed_{ivar_label}.csv"))
         # BEST
         best_idata = my.stats.best.one_sample_best(
-            cp[1] - cp[0], sigma_low=0.0001, sample_kwargs={"cores": 1, "draws": 5000}
+            cp[1] - cp[0],
+            sigma_low=0.0001,
+            sample_kwargs={"cores": 1, "draws": 5000, "random_seed": args.seed},
         )
         save_idata_results(
             idata=best_idata,
@@ -160,7 +202,9 @@ def run_choice_analyses():
 
             # Run BEST
             best_idata = my.stats.best.one_sample_best(
-                difference, sigma_low=0.0001, sample_kwargs={"cores": 1, "draws": 5000}
+                difference,
+                sigma_low=0.0001,
+                sample_kwargs={"cores": 1, "draws": 5000, "random_seed": args.seed},
             )
             save_idata_results(
                 idata=best_idata,
