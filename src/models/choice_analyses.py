@@ -102,6 +102,9 @@ def run_choice_analyses():
             np.where(choices[predictor] == 1, -0.5, np.nan),
         )
 
+    # 0. Choice probability table
+    make_choice_probability_table(choices, output_dir=args.output_dir)
+
     # 1. GLM: choice ~ 1 + ΔEV + longer_shown + favoured_by_last_stage + presentation + interactions
     choices["choose_hp"] = (choices["choice"] == 0).astype(int)
     glm_idata = run_lmm_random_slopes_intercepts(
