@@ -60,7 +60,7 @@ def summarise_subject(raw_data):
     """
 
     # Read participant ID
-    pid = raw_data["PROLIFIC_PID"].values[0]
+    run_id = raw_data["run_id"].values[0]
 
     # Read won amount
     won_amount = raw_data["wonAmt"].values[0]
@@ -169,7 +169,7 @@ def summarise_subject(raw_data):
     exclude_manual = False
     if not exclude_automatic:
         exclude_manual = query_yes_no(
-            question=f"ID {pid}\n  Self report: {self_report}\n  Comment: {comment}\n  Exclude for misunderstanding or technical difficulties?"
+            question=f"ID {run_id}\n  Self report: {self_report}\n  Comment: {comment}\n  Exclude for misunderstanding or technical difficulties?"
         )
     exclude = exclude_manual or exclude_automatic
     if exclude:
@@ -187,7 +187,7 @@ def summarise_subject(raw_data):
     # Put everything together
     out = pd.DataFrame(
         dict(
-            pid=pid,
+            run_id=run_id,
             exclude=exclude,
             exclusion_reason=reason,
             gender=mc_questionnaire.get("gender", np.nan),
@@ -225,17 +225,15 @@ def main():
 
         summary_s = summarise_subject(df)
         summary_s["subject_id"] = i
-        summary_s["run_id"] = df["run_id"].values[0]
         summary.append(
             summary_s[
                 [
                     "subject_id",
-                    "pid",
+                    "run_id",
                     "exclude",
                     "exclusion_reason",
                     "gender",
                     "age",
-                    "run_id",
                     "n_records",
                     "n_choose_nan",
                     "n_choose_dominated",
