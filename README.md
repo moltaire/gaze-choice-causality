@@ -2,7 +2,7 @@
 
 Felix Molter & Peter N. C. Mohr
 
-[Preprint at PsyArXiv]() · [Preregistration on OSF](https://osf.io/bth3m)
+[Preprint at PsyArXiv](https://psyarxiv.com/gcthj) · [Preregistration on OSF](https://osf.io/bth3m)
 
 ## Abstract
 
