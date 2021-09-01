@@ -1,0 +1,3672 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{allais1953ExtensionTheoriesEquilibre}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db336785248e0639e1ca9f11b306c3d8}{%
+           family={Allais},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, Econometric Society]}%
+      }
+      \strng{namehash}{db336785248e0639e1ca9f11b306c3d8}
+      \strng{fullhash}{db336785248e0639e1ca9f11b306c3d8}
+      \strng{bibnamehash}{db336785248e0639e1ca9f11b306c3d8}
+      \strng{authorbibnamehash}{db336785248e0639e1ca9f11b306c3d8}
+      \strng{authornamehash}{db336785248e0639e1ca9f11b306c3d8}
+      \strng{authorfullhash}{db336785248e0639e1ca9f11b306c3d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{L'{{Extension}} Des {{Theories}} de l'{{Equilibre Economique General}} et Du {{Rendement Social}} Au {{Cas}} Du {{Risque}}}
+      \field{volume}{21}
+      \field{year}{1953}
+      \field{pages}{269\bibrangedash 290}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.2307/1905539
+      \endverb
+    \endentry
+    \entry{amasino2019AmountTimeExert}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=25cad6c47076c383d6866f0469427eb7}{%
+           family={Amasino},
+           familyi={A\bibinitperiod},
+           given={Dianna\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de73f11d61227ac27c47a0d17668d42b}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Nicolette\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b1dcf73249e6ee13fe4f0e5b8c0f500}{%
+           family={Kranton},
+           familyi={K\bibinitperiod},
+           given={Rachel\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a4f53d6dafc0ead0fb9fb0761f41d4a}{%
+           family={Huettel},
+           familyi={H\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{091b02cc49657390004688ea67da992b}
+      \strng{fullhash}{04afd5f3b84630bfb6ccc7cf17c89577}
+      \strng{bibnamehash}{04afd5f3b84630bfb6ccc7cf17c89577}
+      \strng{authorbibnamehash}{04afd5f3b84630bfb6ccc7cf17c89577}
+      \strng{authornamehash}{091b02cc49657390004688ea67da992b}
+      \strng{authorfullhash}{04afd5f3b84630bfb6ccc7cf17c89577}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{4}
+      \field{title}{Amount and Time Exert Independent Influences on Intertemporal Choice}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{383\bibrangedash 392}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41562-019-0537-2
+      \endverb
+    \endentry
+    \entry{armel2008BiasingSimpleChoices}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=627ac33e1a64681db002f9dd3ec6da1b}{%
+           family={Armel},
+           familyi={A\bibinitperiod},
+           given={K\bibnamedelima Carrie},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a15bffcea7399bfab640967537a8d70}{%
+           family={Beaumel},
+           familyi={B\bibinitperiod},
+           given={Aurelie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53c916086e54a026dab1647554ba9d5b}
+      \strng{fullhash}{6cda13469542ec4254eae4ea72abc5c2}
+      \strng{bibnamehash}{6cda13469542ec4254eae4ea72abc5c2}
+      \strng{authorbibnamehash}{6cda13469542ec4254eae4ea72abc5c2}
+      \strng{authornamehash}{53c916086e54a026dab1647554ba9d5b}
+      \strng{authorfullhash}{6cda13469542ec4254eae4ea72abc5c2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Judgment and Decision Making}
+      \field{number}{5}
+      \field{title}{Biasing Simple Choices by Manipulating Relative Visual Attention}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{8}
+      \range{pages}{1}
+    \endentry
+    \entry{ashby2016FindingRightFit}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ec808f9fd42a4252d3f4742044aafe54}{%
+           family={Ashby},
+           familyi={A\bibinitperiod},
+           given={Nathaniel\bibnamedelimb J.\bibnamedelimi S.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24c40005e3a80d892be275fff61d909c}{%
+           family={Jekel},
+           familyi={J\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec322aadcd0a9fc1c398e21ce2b61811}{%
+           family={Dickert},
+           familyi={D\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7236a25cc17f71dfb2d4779b4a89580e}{%
+           family={Gl{ö}ckner},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28ae150e6870b84c36a95ed4e84aeac1}
+      \strng{fullhash}{9c39bf6511237818574b59e1b8004b80}
+      \strng{bibnamehash}{9c39bf6511237818574b59e1b8004b80}
+      \strng{authorbibnamehash}{9c39bf6511237818574b59e1b8004b80}
+      \strng{authornamehash}{28ae150e6870b84c36a95ed4e84aeac1}
+      \strng{authorfullhash}{9c39bf6511237818574b59e1b8004b80}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Experimental Psychology: Learning, Memory, and Cognition}
+      \field{number}{12}
+      \field{shorttitle}{Finding the Right Fit}
+      \field{title}{Finding the Right Fit: {{A}} Comparison of Process Assumptions Underlying Popular Drift-Diffusion Models}
+      \field{volume}{42}
+      \field{year}{2016}
+      \field{pages}{1982\bibrangedash 1993}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1037/xlm0000279
+      \endverb
+    \endentry
+    \entry{aust2013SeriousnessChecksAre}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=57ec66d14e39afc71203564c9ec482c2}{%
+           family={Aust},
+           familyi={A\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4bb21e952ba36ff56781bce9132bb0a}{%
+           family={Diedenhofen},
+           familyi={D\bibinitperiod},
+           given={Birk},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0eef0e3dc5cf232456ab1f5460e2ef4}{%
+           family={Ullrich},
+           familyi={U\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b93e807683c2a156b59c33b68ba244}{%
+           family={Musch},
+           familyi={M\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59fa95be58644d78c43c16459b566f39}
+      \strng{fullhash}{cc39e5b703dd2d012457c8df234ccc73}
+      \strng{bibnamehash}{cc39e5b703dd2d012457c8df234ccc73}
+      \strng{authorbibnamehash}{cc39e5b703dd2d012457c8df234ccc73}
+      \strng{authornamehash}{59fa95be58644d78c43c16459b566f39}
+      \strng{authorfullhash}{cc39e5b703dd2d012457c8df234ccc73}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{number}{2}
+      \field{title}{Seriousness Checks Are Useful to Improve Data Validity in Online Research}
+      \field{volume}{45}
+      \field{year}{2013}
+      \field{pages}{527\bibrangedash 535}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.3758/s13428-012-0265-2
+      \endverb
+    \endentry
+    \entry{busemeyer1993DecisionFieldTheory}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6bc913f8f889b2031f72495c94d5e92d}{%
+           family={Busemeyer},
+           familyi={B\bibinitperiod},
+           given={Jerome\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=842a80904b85b01f55860cbcb1cc0aec}{%
+           family={Townsend},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \strng{fullhash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \strng{bibnamehash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \strng{authorbibnamehash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \strng{authornamehash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \strng{authorfullhash}{f38d8309ebd3d7f0c114c0a6dd8df804}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{3}
+      \field{shorttitle}{Decision Field Theory}
+      \field{title}{Decision Field Theory: {{A}} Dynamic-Cognitive Approach to Decision Making in an Uncertain Environment.}
+      \field{volume}{100}
+      \field{year}{1993}
+      \field{pages}{432\bibrangedash 459}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1037/0033-295X.100.3.432
+      \endverb
+    \endentry
+    \entry{capretto2021BambiSimpleInterface}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0f0ee7f4850e01c802ed1ab8d5060914}{%
+           family={Capretto},
+           familyi={C\bibinitperiod},
+           given={Tom{á}s},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff289852a72b1150196c9918c07e74c5}{%
+           family={Piho},
+           familyi={P\bibinitperiod},
+           given={Camen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dae4f0961704dd3825c933ae96784b4d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ravin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3d375ac44c7d54d90652f643cf90500}{%
+           family={Westfall},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ef3de263c81c9443822f0beabf57c61}{%
+           family={Yarkoni},
+           familyi={Y\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6984ec87761c82242d9a0701910359e}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Osvaldo\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{098c81a0515a1066b60292af67ed9984}
+      \strng{fullhash}{2a711b2a9d8f79b219eeb64c9acbe346}
+      \strng{bibnamehash}{2a711b2a9d8f79b219eeb64c9acbe346}
+      \strng{authorbibnamehash}{2a711b2a9d8f79b219eeb64c9acbe346}
+      \strng{authornamehash}{098c81a0515a1066b60292af67ed9984}
+      \strng{authorfullhash}{2a711b2a9d8f79b219eeb64c9acbe346}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprintclass}{stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2012.10754 [stat]}
+      \field{shorttitle}{Bambi}
+      \field{title}{Bambi: {{A}} Simple Interface for Fitting {{Bayesian}} Linear Models in {{Python}}}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2012.10754
+      \endverb
+    \endentry
+    \entry{cavanagh2014EyeTrackingPupillometry}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=246466bc5029b3fc047d54d2de196c9f}{%
+           family={Cavanagh},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f495e80088cea41d5ff3a042dfb728}{%
+           family={Wiecki},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima V.},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd29b0a193d682f25ede95620a621dd7}{%
+           family={Kochar},
+           familyi={K\bibinitperiod},
+           given={Angad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcd3e30440552a7cfc509feea81f9fec}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb650de3a921d0ebe6390f18fef0cf54}
+      \strng{fullhash}{2461dcc7ea6007c09c817290e959aeb9}
+      \strng{bibnamehash}{2461dcc7ea6007c09c817290e959aeb9}
+      \strng{authorbibnamehash}{2461dcc7ea6007c09c817290e959aeb9}
+      \strng{authornamehash}{bb650de3a921d0ebe6390f18fef0cf54}
+      \strng{authorfullhash}{2461dcc7ea6007c09c817290e959aeb9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology. General}
+      \field{number}{4}
+      \field{title}{Eye Tracking and Pupillometry Are Indicators of Dissociable Latent Decision Processes}
+      \field{volume}{143}
+      \field{year}{2014}
+      \field{pages}{1476\bibrangedash 1488}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/a0035813
+      \endverb
+    \endentry
+    \entry{deleeuw2015JsPsychJavaScriptLibrary}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=972b1ea478c1eaa6b4f610a94bdc9e39}{%
+           family={{de Leeuw}},
+           familyi={d\bibinitperiod},
+           given={Joshua\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \strng{fullhash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \strng{bibnamehash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \strng{authorbibnamehash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \strng{authornamehash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \strng{authorfullhash}{972b1ea478c1eaa6b4f610a94bdc9e39}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{number}{1}
+      \field{shorttitle}{{{jsPsych}}}
+      \field{title}{{{jsPsych}}: {{A JavaScript}} Library for Creating Behavioral Experiments in a {{Web}} Browser}
+      \field{volume}{47}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3758/s13428-014-0458-y
+      \endverb
+    \endentry
+    \entry{fiedler2012DynamicsDecisionMaking}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7a7e66515f3cfcbddc9147f1f68690a4}{%
+           family={Fiedler},
+           familyi={F\bibinitperiod},
+           given={Susann},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7236a25cc17f71dfb2d4779b4a89580e}{%
+           family={Gl{ö}ckner},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \strng{fullhash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \strng{bibnamehash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \strng{authorbibnamehash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \strng{authornamehash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \strng{authorfullhash}{b6ccdc983fabf781c177bcb559cbbfec}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{shorttitle}{The {{Dynamics}} of {{Decision Making}} in {{Risky Choice}}}
+      \field{title}{The {{Dynamics}} of {{Decision Making}} in {{Risky Choice}}: {{An Eye}}-{{Tracking Analysis}}}
+      \field{volume}{3}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2012.00335
+      \endverb
+    \endentry
+    \entry{fisher2021IntertemporalChoicesAre}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd78943ff38d6c8aabdfdb6538e7006b}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \strng{fullhash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \strng{bibnamehash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \strng{authorbibnamehash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \strng{authornamehash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \strng{authorfullhash}{dd78943ff38d6c8aabdfdb6538e7006b}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{issn}{0025-1909, 1526-5501}
+      \field{journaltitle}{Management Science}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Management Science}
+      \field{title}{Intertemporal {{Choices Are Causally Influenced}} by {{Fluctuations}} in {{Visual Attention}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1287/mnsc.2020.3732
+      \endverb
+      \verb{urlraw}
+      \verb http://pubsonline.informs.org/doi/10.1287/mnsc.2020.3732
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/10.1287/mnsc.2020.3732
+      \endverb
+    \endentry
+    \entry{glickman2019FormationPreferenceRisky}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=16af6182d13aa54ae9552f932a4b9b27}{%
+           family={Glickman},
+           familyi={G\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60e0968ff8ac34983bebab28e428acc8}{%
+           family={Sharoni},
+           familyi={S\bibinitperiod},
+           given={Orian},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=889f4c14933203a13774738dc476897b}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Dino\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4402b87ee79d24b72087f228ecc3ac2}{%
+           family={Niebur},
+           familyi={N\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b757e50db29a62d0556f24d1ac8091b6}{%
+           family={Stuphorn},
+           familyi={S\bibinitperiod},
+           given={Veit},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed2f2b0b20594d6d7e9b53721d1fb10}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{b0f6f739ba101886d2f781da3525b490}
+      \strng{fullhash}{803216d151a5c7d07951cb1bdeea6d6f}
+      \strng{bibnamehash}{803216d151a5c7d07951cb1bdeea6d6f}
+      \strng{authorbibnamehash}{803216d151a5c7d07951cb1bdeea6d6f}
+      \strng{authornamehash}{b0f6f739ba101886d2f781da3525b490}
+      \strng{authorfullhash}{803216d151a5c7d07951cb1bdeea6d6f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{number}{8}
+      \field{title}{The Formation of Preference in Risky Choice}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{pages}{e1007201}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1007201
+      \endverb
+    \endentry
+    \entry{glockner2011EyetrackingStudyInformation}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7236a25cc17f71dfb2d4779b4a89580e}{%
+           family={Gl{ö}ckner},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35e7b873bc8a2cc89eabec5179e0a422}{%
+           family={Herbold},
+           familyi={H\bibinitperiod},
+           given={Ann-Katrin},
+           giveni={A\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \strng{fullhash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \strng{bibnamehash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \strng{authorbibnamehash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \strng{authornamehash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \strng{authorfullhash}{e46f5fec7076ba45fb0a619f278d3fdb}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{number}{1}
+      \field{shorttitle}{An Eye-Tracking Study on Information Processing in Risky Decisions}
+      \field{title}{An Eye-Tracking Study on Information Processing in Risky Decisions: {{Evidence}} for Compensatory Strategies Based on Automatic Processes}
+      \field{volume}{24}
+      \field{year}{2011}
+      \field{pages}{71\bibrangedash 98}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1002/bdm.684
+      \endverb
+    \endentry
+    \entry{gluth2020ValuebasedAttentionNot}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4f6d9536f435f34dc556e72394539e61}{%
+           family={Gluth},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfe4892638af7d9952d7851ebda5ce81}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Nadja},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86f13113380090a9f7ad6321f23fd125}{%
+           family={Kortmann},
+           familyi={K\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a8824512876e9e33777dd749d05e6de}{%
+           family={Vitali},
+           familyi={V\bibinitperiod},
+           given={C{é}cile\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{fullhash}{f81ca923b99f779e8db549ef0ff7564b}
+      \strng{bibnamehash}{f81ca923b99f779e8db549ef0ff7564b}
+      \strng{authorbibnamehash}{f81ca923b99f779e8db549ef0ff7564b}
+      \strng{authornamehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{authorfullhash}{f81ca923b99f779e8db549ef0ff7564b}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{title}{Value-Based Attention but Not Divisive Normalization Influences Decisions with Multiple Alternatives}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41562-020-0822-0
+      \endverb
+    \endentry
+    \entry{gluth2015EffectiveConnectivityHippocampus}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4f6d9536f435f34dc556e72394539e61}{%
+           family={Gluth},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d73a634fd19cdcc87281ccaa78e104d7}{%
+           family={Sommer},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7300dfcb057f39ff264da35ee58159}{%
+           family={Rieskamp},
+           familyi={R\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d613ef2ed20d72ac3cf3eb739453261}{%
+           family={Büchel},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{fullhash}{fbe943dffcf9b067fa5acac2b6102ffb}
+      \strng{bibnamehash}{fbe943dffcf9b067fa5acac2b6102ffb}
+      \strng{authorbibnamehash}{fbe943dffcf9b067fa5acac2b6102ffb}
+      \strng{authornamehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{authorfullhash}{fbe943dffcf9b067fa5acac2b6102ffb}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{issn}{0896-6273}
+      \field{journaltitle}{Neuron}
+      \field{month}{5}
+      \field{note}{Publisher: Elsevier}
+      \field{number}{4}
+      \field{shortjournal}{Neuron}
+      \field{title}{Effective Connectivity between Hippocampus and Ventromedial Prefrontal Cortex Controls Preferential Choices from Memory}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{volume}{86}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1078\bibrangedash 1090}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.neuron.2015.04.023
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cell.com/neuron/abstract/S0896-6273(15)00373-6
+      \endverb
+      \verb{url}
+      \verb https://www.cell.com/neuron/abstract/S0896-6273(15)00373-6
+      \endverb
+    \endentry
+    \entry{gluth2018ValuebasedAttentionalCapture}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4f6d9536f435f34dc556e72394539e61}{%
+           family={Gluth},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86fd6edc4b39800495dd27f655fab5e6}{%
+           family={Spektor},
+           familyi={S\bibinitperiod},
+           given={Mikhail\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7300dfcb057f39ff264da35ee58159}{%
+           family={Rieskamp},
+           familyi={R\bibinitperiod},
+           given={J{ö}rg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=fcd3e30440552a7cfc509feea81f9fec}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{fullhash}{b5e54daf07cc04a644de90cc18867c3a}
+      \strng{bibnamehash}{b5e54daf07cc04a644de90cc18867c3a}
+      \strng{authorbibnamehash}{b5e54daf07cc04a644de90cc18867c3a}
+      \strng{authornamehash}{14398c5234564cdd0cc1b25790864ddf}
+      \strng{authorfullhash}{b5e54daf07cc04a644de90cc18867c3a}
+      \strng{editorbibnamehash}{fcd3e30440552a7cfc509feea81f9fec}
+      \strng{editornamehash}{fcd3e30440552a7cfc509feea81f9fec}
+      \strng{editorfullhash}{fcd3e30440552a7cfc509feea81f9fec}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife}
+      \field{title}{Value-Based Attentional Capture Affects Multi-Alternative Decision Making}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{e39659}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7554/eLife.39659
+      \endverb
+    \endentry
+    \entry{gwinn2019SpilloverEffectsAttentional}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=686520c4de152ff9d16b308b160a8ebe}{%
+           family={Gwinn},
+           familyi={G\bibinitperiod},
+           given={Rachael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c6bb86e3cfee819bfe3d9688675f662}{%
+           family={Leber},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b10b15c03c29548b7785c66cfeafad8}
+      \strng{fullhash}{ea898b566de0792ab915b196f94ef7a5}
+      \strng{bibnamehash}{ea898b566de0792ab915b196f94ef7a5}
+      \strng{authorbibnamehash}{ea898b566de0792ab915b196f94ef7a5}
+      \strng{authornamehash}{6b10b15c03c29548b7785c66cfeafad8}
+      \strng{authorfullhash}{ea898b566de0792ab915b196f94ef7a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{title}{The Spillover Effects of Attentional Learning on Value-Based Choice}
+      \field{volume}{182}
+      \field{year}{2019}
+      \field{pages}{294\bibrangedash 306}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.cognition.2018.10.012
+      \endverb
+    \endentry
+    \entry{harris2020array}{article}{}
+      \name{author}{26}{}{%
+        {{un=0,uniquepart=base,hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fdb8415e87a19489185503310c047ed}{%
+           family={{van der Walt}},
+           familyi={v\bibinitperiod},
+           given={St'efan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4321feefe3d5715c6fe12639d2a1f7f1}{%
+           family={Wieser},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8d1b0c2bff88b6bf54e2e934e2853f6}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=265437a4424f0b845118651d7d04ab93}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4d23819637a961e0e598e1c82a8f10d}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nathaniel\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ad1d38817acd2f00cb7f324ec7d37ea}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ae844f84614690134ff5d8252fdc430}{%
+           family={Picus},
+           familyi={P\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a22828b76006f42d747b699d2ef5167}{%
+           family={Hoyer},
+           familyi={H\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f3b371ee6dfbcc9dc9182bf9c7e1d01}{%
+           family={{van Kerkwijk}},
+           familyi={v\bibinitperiod},
+           given={Marten\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626cc151613864abeb653c0d8172d98c}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a989405517bbf67ae7b16be1d03c0081}{%
+           family={Haldane},
+           familyi={H\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff36024a3ed40ffcc02efc2a0fb8b5e6}{%
+           family={{del R'{ı}o}},
+           familyi={d\bibinitperiod},
+           given={Jaime\bibnamedelima Fern'andez},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76256cb9e4c31e0a4744b1b49a6199f4}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60ae74b6ee73d706a90d321eac4a7fed}{%
+           family={{G'erard-Marchant}},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22fcbc93c38819e962968aad3e3cba7f}{%
+           family={Sheppard},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbb0c40f5d70be8ce47ce9daafdf5749}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c7e4c94b846fa41e2fc0a88e0dc656d}{%
+           family={Weckesser},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c588b2e35e75bba896fc5677afb52fa9}{%
+           family={Abbasi},
+           familyi={A\bibinitperiod},
+           given={Hameer},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52e2684c111b194e1f15fa06b0ce4544}{%
+           family={Gohlke},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science and Business Media LLC}%
+      }
+      \strng{namehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{fullhash}{3c3a82cc276cfddcd40b820876e68d3d}
+      \strng{bibnamehash}{6f39d72a41f6d1fb134f0c1b45f7f534}
+      \strng{authorbibnamehash}{6f39d72a41f6d1fb134f0c1b45f7f534}
+      \strng{authornamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authorfullhash}{3c3a82cc276cfddcd40b820876e68d3d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7825}
+      \field{title}{Array Programming with {{NumPy}}}
+      \field{volume}{585}
+      \field{year}{2020}
+      \field{pages}{357\bibrangedash 362}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-020-2649-2
+      \endverb
+    \endentry
+    \entry{hertwig2004DecisionsExperienceEffect}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=cee6d5714f3a1251e9aed4b888a4d4d9}{%
+           family={Hertwig},
+           familyi={H\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=369246b9d93304143bf7bcabe70cb7af}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c96845d5fadba6351f48d53834d9b4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Elke\bibnamedelima U.},
+           giveni={E\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c9bc3c1f790c69f4e9b72e96d79b2ed}{%
+           family={Erev},
+           familyi={E\bibinitperiod},
+           given={Ido},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{de87aeda3a2c415131b6fcda3a4a232c}
+      \strng{fullhash}{a9718f9c9a6b9136d855460067876190}
+      \strng{bibnamehash}{a9718f9c9a6b9136d855460067876190}
+      \strng{authorbibnamehash}{a9718f9c9a6b9136d855460067876190}
+      \strng{authornamehash}{de87aeda3a2c415131b6fcda3a4a232c}
+      \strng{authorfullhash}{a9718f9c9a6b9136d855460067876190}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{8}
+      \field{title}{Decisions from {{Experience}} and the {{Effect}} of {{Rare Events}} in {{Risky Choice}}}
+      \field{volume}{15}
+      \field{year}{2004}
+      \field{pages}{534\bibrangedash 539}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/j.0956-7976.2004.00715.x
+      \endverb
+    \endentry
+    \entry{hommel2019NoOneKnows}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=ac8532d299618b6b03ce7079a5cf0695}{%
+           family={Hommel},
+           familyi={H\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a798e0cd4f64f99ca86a5613cf3820e}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={Craig\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8a7821bff4c2ba4bf3aa26ad61372e9}{%
+           family={Cisek},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a63a4a780e72706676b079e606f9c1e}{%
+           family={Neyedli},
+           familyi={N\bibinitperiod},
+           given={Heather\bibnamedelima F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5325f4637e678061e07dec0e1eba6b4b}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Joo-Hyun},
+           giveni={J\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f58da2afd017062782ffdc4ed0f715f}{%
+           family={Welsh},
+           familyi={W\bibinitperiod},
+           given={Timothy\bibnamedelima N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{beb6714325c6d1cc85f88a50e376904a}
+      \strng{fullhash}{6a8f65055d11209493e15d123ac6a713}
+      \strng{bibnamehash}{6a8f65055d11209493e15d123ac6a713}
+      \strng{authorbibnamehash}{6a8f65055d11209493e15d123ac6a713}
+      \strng{authornamehash}{beb6714325c6d1cc85f88a50e376904a}
+      \strng{authorfullhash}{6a8f65055d11209493e15d123ac6a713}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Attention, Perception, \& Psychophysics}
+      \field{number}{7}
+      \field{title}{No One Knows What Attention Is}
+      \field{volume}{81}
+      \field{year}{2019}
+      \field{pages}{2288\bibrangedash 2303}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3758/s13414-019-01846-w
+      \endverb
+    \endentry
+    \entry{hunter2007Matplotlib2DGraphics}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{shorttitle}{Matplotlib}
+      \field{title}{Matplotlib: {{A 2D Graphics Environment}}}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MCSE.2007.55
+      \endverb
+    \endentry
+    \entry{isham2013LookingTimePredicts}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c6ef0e06c00b1bf418033a21f89680cd}{%
+           family={Isham},
+           familyi={I\bibinitperiod},
+           given={Eve\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32d52cbfa404da4ff1cf047b5d9e6731}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Joy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{527e74e743f3efedf623a2defca015fe}
+      \strng{fullhash}{527e74e743f3efedf623a2defca015fe}
+      \strng{bibnamehash}{527e74e743f3efedf623a2defca015fe}
+      \strng{authorbibnamehash}{527e74e743f3efedf623a2defca015fe}
+      \strng{authornamehash}{527e74e743f3efedf623a2defca015fe}
+      \strng{authorfullhash}{527e74e743f3efedf623a2defca015fe}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{8}
+      \field{title}{Looking {{Time Predicts Choice}} but {{Not Aesthetic Value}}}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e71698}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0071698
+      \endverb
+    \endentry
+    \entry{jeffreys1998TheoryProbability}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e32c27c2f1708cd3eeefc7b74f91270}{%
+           family={Jeffreys},
+           familyi={J\bibinitperiod},
+           given={Sir\bibnamedelima Harold},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford, New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \strng{fullhash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \strng{bibnamehash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \strng{authorbibnamehash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \strng{authornamehash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \strng{authorfullhash}{9e32c27c2f1708cd3eeefc7b74f91270}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Third Edition}
+      \field{isbn}{978-0-19-850368-2}
+      \field{series}{Oxford {{Classic Texts}} in the {{Physical Sciences}}}
+      \field{title}{The {{Theory}} of {{Probability}}}
+      \field{year}{1998}
+    \endentry
+    \entry{kahneman2012ChoicesValuesFrames}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of the {{Fundamentals}} of {{Financial Decision Making}}}
+      \field{isbn}{978-981-4417-34-1}
+      \field{series}{World {{Scientific Handbook}} in {{Financial Economics Series}}}
+      \field{title}{Choices, {{Values}}, and {{Frames}}}
+      \field{volume}{Volume 4}
+      \field{year}{2012}
+      \field{pages}{269\bibrangedash 278}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1142/9789814417358_0016
+      \endverb
+    \endentry
+    \entry{kim2012PreferenceReversalsDecision}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a112e6d98558b5a377717ca4c855c103}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Betty},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08eecb52a18f335ebff36221c23075eb}{%
+           family={Seligman},
+           familyi={S\bibinitperiod},
+           given={Darryl},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6effef5dcb6f92a90f7ab5d60065d36}{%
+           family={Kable},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{6239e2f9072d945ae68dd88b335b3ec5}
+      \strng{fullhash}{d1426f18017b998545f0d1d02b22d585}
+      \strng{bibnamehash}{d1426f18017b998545f0d1d02b22d585}
+      \strng{authorbibnamehash}{d1426f18017b998545f0d1d02b22d585}
+      \strng{authornamehash}{6239e2f9072d945ae68dd88b335b3ec5}
+      \strng{authorfullhash}{d1426f18017b998545f0d1d02b22d585}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{title}{Preference {{Reversals}} in {{Decision Making Under Risk}} Are {{Accompanied}} by {{Changes}} in {{Attention}} to {{Different Attributes}}}
+      \field{volume}{6}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.3389/fnins.2012.00109
+      \endverb
+    \endentry
+    \entry{krajbich2010VisualFixationsComputation}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e0d53da2f6c3c13ef569e841884286}{%
+           family={Armel},
+           familyi={A\bibinitperiod},
+           given={Carrie},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09f4daf8df1d5d492bb2d81503d52831}
+      \strng{fullhash}{a2757a26a2f7884d4526b7a9e38900a8}
+      \strng{bibnamehash}{a2757a26a2f7884d4526b7a9e38900a8}
+      \strng{authorbibnamehash}{a2757a26a2f7884d4526b7a9e38900a8}
+      \strng{authornamehash}{09f4daf8df1d5d492bb2d81503d52831}
+      \strng{authorfullhash}{a2757a26a2f7884d4526b7a9e38900a8}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Neuroscience}
+      \field{number}{10}
+      \field{title}{Visual Fixations and the Computation and Comparison of Value in Simple Choice}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{pages}{1292\bibrangedash 1298}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nn.2635
+      \endverb
+    \endentry
+    \entry{krajbich2012AttentionalDriftdiffusionModel}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b6928b5d8590e9d2a7a92bf71678e64}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Dingchao},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dd7907f2e73bf06388a41e10690fef7}{%
+           family={Camerer},
+           familyi={C\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09f4daf8df1d5d492bb2d81503d52831}
+      \strng{fullhash}{856e6c2ea9f2a72f8d1d04526cbef099}
+      \strng{bibnamehash}{856e6c2ea9f2a72f8d1d04526cbef099}
+      \strng{authorbibnamehash}{856e6c2ea9f2a72f8d1d04526cbef099}
+      \strng{authornamehash}{09f4daf8df1d5d492bb2d81503d52831}
+      \strng{authorfullhash}{856e6c2ea9f2a72f8d1d04526cbef099}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{The Attentional Drift-Diffusion Model Extends to Simple Purchasing Decisions}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{193}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2012.00193
+      \endverb
+    \endentry
+    \entry{krajbich2011MultialternativeDriftdiffusionModel}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \strng{fullhash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \strng{bibnamehash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \strng{authorbibnamehash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \strng{authornamehash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \strng{authorfullhash}{b98d1e3170ca2054f7eb2ad0b5215305}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{33}
+      \field{title}{Multialternative Drift-Diffusion Model Predicts the Relationship between Visual Fixations and Choice in Value-Based Decisions}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{13852\bibrangedash 13857}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1101328108
+      \endverb
+    \endentry
+    \entry{kruschke2013BayesianEstimationSupersedes}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81a0481c4d0c2f7a95cdc42fda92af07}{%
+           family={Kruschke},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{fullhash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{bibnamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authorbibnamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authornamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authorfullhash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: General}
+      \field{number}{2}
+      \field{title}{Bayesian Estimation Supersedes the t Test}
+      \field{volume}{142}
+      \field{year}{2013}
+      \field{pages}{573\bibrangedash 603}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1037/a0029146
+      \endverb
+    \endentry
+    \entry{kruschke2014DoingBayesianData}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81a0481c4d0c2f7a95cdc42fda92af07}{%
+           family={Kruschke},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{fullhash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{bibnamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authorbibnamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authornamehash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \strng{authorfullhash}{81a0481c4d0c2f7a95cdc42fda92af07}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-12-405916-0}
+      \field{shorttitle}{Doing {{Bayesian Data Analysis}}}
+      \field{title}{Doing {{Bayesian Data Analysis}}: {{A Tutorial}} with {{R}}, {{JAGS}}, and {{Stan}}}
+      \field{year}{2014}
+    \endentry
+    \entry{lee2013BayesianCognitiveModeling}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=91ab7a2784068d173b5cc9ebb675b130}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0127560e030afe2fdab5e2b35378c37}{%
+           family={Wagenmakers},
+           familyi={W\bibinitperiod},
+           given={Eric-Jan},
+           giveni={E\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \strng{fullhash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \strng{bibnamehash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \strng{authorbibnamehash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \strng{authornamehash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \strng{authorfullhash}{abb310e1b611a82dbe8a3800fd86de7e}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{annotation}{OCLC: ocn861318341}
+      \field{isbn}{978-1-107-60357-8}
+      \field{shorttitle}{Bayesian Cognitive Modeling}
+      \field{title}{Bayesian Cognitive Modeling: A Practical Course}
+      \field{year}{2013}
+    \endentry
+    \entry{lim2011DecisionValueComputations}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ce30785c8d12f97ec12d09d7be6c0323}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Seung-Lark},
+           giveni={S\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92347121cea784edc620577b1e48e0d1}{%
+           family={O'Doherty},
+           familyi={O\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Society for Neuroscience}%
+      }
+      \strng{namehash}{95dbf79b9db15aa431f6260713c14133}
+      \strng{fullhash}{0c991c7ab492ec9b0b5bbb3d94fd46fe}
+      \strng{bibnamehash}{0c991c7ab492ec9b0b5bbb3d94fd46fe}
+      \strng{authorbibnamehash}{0c991c7ab492ec9b0b5bbb3d94fd46fe}
+      \strng{authornamehash}{95dbf79b9db15aa431f6260713c14133}
+      \strng{authorfullhash}{0c991c7ab492ec9b0b5bbb3d94fd46fe}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Articles}
+      \field{journaltitle}{Journal of Neuroscience}
+      \field{number}{37}
+      \field{title}{The {{Decision Value Computations}} in the {{vmPFC}} and {{Striatum Use}} a {{Relative Value Code That}} Is {{Guided}} by {{Visual Attention}}}
+      \field{volume}{31}
+      \field{year}{2011}
+      \field{pages}{13214\bibrangedash 13223}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1523/JNEUROSCI.1246-11.2011
+      \endverb
+    \endentry
+    \entry{liu2020ExploitingDynamicsEye}{article}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=ba24c2d9fd046b5663fa3bd0176afc77}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hong-Zhi},
+           giveni={H\bibinithyphendelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9816ed26dc47728ad16ca26f216cdf0}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Xiao-Kang},
+           giveni={X\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b64400a1cdb5e52e443a47340c9b5fe1}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zi-Han},
+           giveni={Z\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19b9ffbd22b5578d5495b6e81f81d94b}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Wan-Li},
+           giveni={W\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65abd9d02618c914cf1d2135dbcf114b}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jiong-Rui},
+           giveni={J\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3baba3e01177ed58ace616bbb115c8aa}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Xiao-Yu},
+           giveni={X\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e05ca6703ad217d7e25cd0b66bc8bfb}
+      \strng{fullhash}{0148ed5e9a440e45b34193efcd19f2da}
+      \strng{bibnamehash}{0148ed5e9a440e45b34193efcd19f2da}
+      \strng{authorbibnamehash}{0148ed5e9a440e45b34193efcd19f2da}
+      \strng{authornamehash}{3e05ca6703ad217d7e25cd0b66bc8bfb}
+      \strng{authorfullhash}{0148ed5e9a440e45b34193efcd19f2da}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{number}{n/a}
+      \field{title}{Exploiting the Dynamics of Eye Gaze to Bias Intertemporal Choice}
+      \field{volume}{n/a}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1002/bdm.2219
+      \endverb
+    \endentry
+    \entry{liu2020PowerLastFixation}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=ba24c2d9fd046b5663fa3bd0176afc77}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hong-Zhi},
+           giveni={H\bibinithyphendelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0094a4a7eb1d6b0b83ee6baf3e7643fd}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yan-Bang},
+           giveni={Y\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b64400a1cdb5e52e443a47340c9b5fe1}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zi-Han},
+           giveni={Z\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82c20b0df101757e150b7cb79e773bc3}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Cheng-Ming},
+           giveni={C\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e491d61e0979da2e4ec7e288a66167b2}
+      \strng{fullhash}{8c1761dd33e9927cedb77368f6386e2e}
+      \strng{bibnamehash}{8c1761dd33e9927cedb77368f6386e2e}
+      \strng{authorbibnamehash}{8c1761dd33e9927cedb77368f6386e2e}
+      \strng{authornamehash}{e491d61e0979da2e4ec7e288a66167b2}
+      \strng{authorfullhash}{8c1761dd33e9927cedb77368f6386e2e}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Acta Psychologica}
+      \field{shorttitle}{The Power of Last Fixation}
+      \field{title}{The Power of Last Fixation: {{Biasing}} Simple Choices by Gaze-Contingent Manipulation}
+      \field{volume}{208}
+      \field{year}{2020}
+      \field{pages}{103106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.actpsy.2020.103106
+      \endverb
+    \endentry
+    \entry{lopez-persem2016HowPriorPreferences}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1c55631082ebc401c2cc8776c959d6af}{%
+           family={{Lopez-Persem}},
+           familyi={L\bibinitperiod},
+           given={Aliz{é}e},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd4c6ccc812e45a140501e31b1aaad68}{%
+           family={Domenech},
+           familyi={D\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20b615270957d28ffc48e60a8414d93c}{%
+           family={Pessiglione},
+           familyi={P\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8223f891b839d39b5c5b549e880ac4b}
+      \strng{fullhash}{ffeb730f2035eda4782ee99cd7869519}
+      \strng{bibnamehash}{ffeb730f2035eda4782ee99cd7869519}
+      \strng{authorbibnamehash}{ffeb730f2035eda4782ee99cd7869519}
+      \strng{authornamehash}{f8223f891b839d39b5c5b549e880ac4b}
+      \strng{authorfullhash}{ffeb730f2035eda4782ee99cd7869519}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife}
+      \field{title}{How Prior Preferences Determine Decision-Making Frames and Biases in the Human Brain}
+      \field{volume}{5}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.7554/eLife.20317
+      \endverb
+    \endentry
+    \entry{maier2020DissociableMechanismsGovern}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=13a42e16c0c585d8f4afaa945629c08e}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Silvia\bibnamedelima U.},
+           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b2e72472519628d3d2918f0d87f94c3}{%
+           family={Raja\bibnamedelima Beharelle},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Anjali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9faa65e002a0f1e42ecbd796ed76eb6}{%
+           family={Polan{í}a},
+           familyi={P\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=265a5ff6f8c7f0fe431589f563d93478}{%
+           family={Ruff},
+           familyi={R\bibinitperiod},
+           given={Christian\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e90fa4db8efda2cbd1835fc71023a103}{%
+           family={Hare},
+           familyi={H\bibinitperiod},
+           given={Todd\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a4572c48b1ba519e5225e0468de5537f}
+      \strng{fullhash}{a8ab1e2073c6d8e1cdca1b05fbf03eca}
+      \strng{bibnamehash}{a8ab1e2073c6d8e1cdca1b05fbf03eca}
+      \strng{authorbibnamehash}{a8ab1e2073c6d8e1cdca1b05fbf03eca}
+      \strng{authornamehash}{a4572c48b1ba519e5225e0468de5537f}
+      \strng{authorfullhash}{a8ab1e2073c6d8e1cdca1b05fbf03eca}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{title}{Dissociable Mechanisms Govern When and How Strongly Reward Attributes Affect Decisions}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1038/s41562-020-0893-y
+      \endverb
+    \endentry
+    \entry{mckinney2012PythonDataAnalysis}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {"O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{fullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{bibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorbibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authornamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorfullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-4493-2361-5}
+      \field{shorttitle}{Python for {{Data Analysis}}}
+      \field{title}{Python for {{Data Analysis}}: {{Data Wrangling}} with {{Pandas}}, {{NumPy}}, and {{IPython}}}
+      \field{year}{2012}
+    \endentry
+    \entry{milosavljevic2012RelativeVisualSaliency}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4ae49cdbf54c32d119ec8f38e30aa717}{%
+           family={Milosavljevic},
+           familyi={M\bibinitperiod},
+           given={Milica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab274a8a1d9a6917b20dcb830e9bc56a}{%
+           family={Navalpakkam},
+           familyi={N\bibinitperiod},
+           given={Vidhya},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde4db3430ff6f578a4358224bece0ac}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ab297a0dd396a7fa6b228f615c8c7d0}
+      \strng{fullhash}{db1fd36a85211dd92f5d194bee86ba5e}
+      \strng{bibnamehash}{db1fd36a85211dd92f5d194bee86ba5e}
+      \strng{authorbibnamehash}{db1fd36a85211dd92f5d194bee86ba5e}
+      \strng{authornamehash}{3ab297a0dd396a7fa6b228f615c8c7d0}
+      \strng{authorfullhash}{db1fd36a85211dd92f5d194bee86ba5e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Consumer Psychology}
+      \field{number}{1}
+      \field{title}{Relative Visual Saliency Differences Induce Sizable Bias in Consumer Choice}
+      \field{volume}{22}
+      \field{year}{2012}
+      \field{pages}{67\bibrangedash 74}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jcps.2011.10.002
+      \endverb
+    \endentry
+    \entry{mittone2020InducingAlternativebasedCharacteristicbased}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7f0f8e48af0645320c396333f5cf6daf}{%
+           family={Mittone},
+           familyi={M\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57ba8a781e83cfbcee5244023aafa26a}{%
+           family={Papi},
+           familyi={P\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \strng{fullhash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \strng{bibnamehash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \strng{authorbibnamehash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \strng{authornamehash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \strng{authorfullhash}{11f20aa415c1eb05ed0b0f3dec3471b9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Judgment and Decision Making}
+      \field{title}{Inducing Alternative-Based and Characteristic-Based Search Procedures in Risky Choice}
+      \field{year}{2020}
+      \field{pages}{10}
+      \range{pages}{1}
+    \endentry
+    \entry{mohr2017AttractionEffectRisky}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d8f897372065d9edb5f7493ed97eb969}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb N.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc6a8178296a4805e3c61205e500581}{%
+           family={Heekeren},
+           familyi={H\bibinitperiod},
+           given={Hauke\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7300dfcb057f39ff264da35ee58159}{%
+           family={Rieskamp},
+           familyi={R\bibinitperiod},
+           given={J{ö}rg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3fe2ac8044b3676820a2371e5b505d75}
+      \strng{fullhash}{1af4c5504142a535a5d8d3e3e113ae6c}
+      \strng{bibnamehash}{1af4c5504142a535a5d8d3e3e113ae6c}
+      \strng{authorbibnamehash}{1af4c5504142a535a5d8d3e3e113ae6c}
+      \strng{authornamehash}{3fe2ac8044b3676820a2371e5b505d75}
+      \strng{authorfullhash}{1af4c5504142a535a5d8d3e3e113ae6c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Attraction {{Effect}} in {{Risky Choice Can Be Explained}} by {{Subjective Distance Between Choice Alternatives}}}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41598-017-06968-5
+      \endverb
+    \endentry
+    \entry{molter2021InvestigatingCausalEffects}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08a3ddfcdcd5b9349760f6947ea5db0a}{%
+           family={Molter},
+           familyi={M\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f897372065d9edb5f7493ed97eb969}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb N.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {OSF}%
+      }
+      \strng{namehash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \strng{fullhash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \strng{bibnamehash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \strng{authorbibnamehash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \strng{authornamehash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \strng{authorfullhash}{d1285a4dc32c6ef81016d12c89e8ff24}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Science Framework}
+      \field{title}{Investigating the Causal Effects of Presentation Duration, Sequence, and Format on Binary Risky Choice}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://osf.io/bth3m
+      \endverb
+      \verb{url}
+      \verb https://osf.io/bth3m
+      \endverb
+    \endentry
+    \entry{molter2021GazedependentEvidenceAccumulation}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=08a3ddfcdcd5b9349760f6947ea5db0a}{%
+           family={Molter},
+           familyi={M\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa24593533039ef184b1421467fc54a0}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a4f53d6dafc0ead0fb9fb0761f41d4a}{%
+           family={Huettel},
+           familyi={H\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=618884e115a027fbd4b2ba6230f56851}{%
+           family={Heekeren},
+           familyi={H\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f897372065d9edb5f7493ed97eb969}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb N.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {PsyArXiv}%
+      }
+      \strng{namehash}{0bccad798b430250e396fa2da35e1782}
+      \strng{fullhash}{cae463d444afdb10dd561db5506201d8}
+      \strng{bibnamehash}{cae463d444afdb10dd561db5506201d8}
+      \strng{authorbibnamehash}{cae463d444afdb10dd561db5506201d8}
+      \strng{authornamehash}{0bccad798b430250e396fa2da35e1782}
+      \strng{authorfullhash}{cae463d444afdb10dd561db5506201d8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gaze-Dependent Evidence Accumulation Predicts Multi-Alternative Risky Choice Behaviour}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.31234/osf.io/x6nbf
+      \endverb
+    \endentry
+    \entry{morey2011BayesFactorApproaches}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=67c2ddf598088b6a60cab5b9559833a8}{%
+           family={Morey},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad57b27dddd6ed080c086fc91c695ca1}{%
+           family={Rouder},
+           familyi={R\bibinitperiod},
+           given={Jeffrey\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {US}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{fullhash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{bibnamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authorbibnamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authornamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authorfullhash}{718309e9d1f64176f27c4e7c958bef5a}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{number}{4}
+      \field{title}{Bayes Factor Approaches for Testing Interval Null Hypotheses}
+      \field{volume}{16}
+      \field{year}{2011}
+      \field{pages}{406\bibrangedash 419}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1037/a0024377
+      \endverb
+    \endentry
+    \entry{morey2018BayesFactorComputation}{manual}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=67c2ddf598088b6a60cab5b9559833a8}{%
+           family={Morey},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad57b27dddd6ed080c086fc91c695ca1}{%
+           family={Rouder},
+           familyi={R\bibinitperiod},
+           given={Jeffrey\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{fullhash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{bibnamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authorbibnamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authornamehash}{718309e9d1f64176f27c4e7c958bef5a}
+      \strng{authorfullhash}{718309e9d1f64176f27c4e7c958bef5a}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{BayesFactor}}: {{Computation}} of Bayes Factors for Common Designs}
+      \field{type}{Manual}
+      \field{year}{2018}
+    \endentry
+    \entry{mormann2021DoesAttentionIncrease}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b1964080f88e956024aaeb6189ecc40e}{%
+           family={Mormann},
+           familyi={M\bibinitperiod},
+           given={Milica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c4f7f6d051e02084b0705e20224a026}{%
+           family={Russo},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi Edward},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \strng{fullhash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \strng{bibnamehash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \strng{authorbibnamehash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \strng{authornamehash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \strng{authorfullhash}{68b8acf7588c0fa236c897a9b6a7873f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{title}{Does {{Attention Increase}} the {{Value}} of {{Choice Alternatives}}?}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1016/j.tics.2021.01.004
+      \endverb
+    \endentry
+    \entry{mullett2016ImplicationsVisualAttention}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bccdbbd5849541588f0eddb0d9f77b49}{%
+           family={Mullett},
+           familyi={M\bibinitperiod},
+           given={Timothy\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba857a3e0e931f2450629a5075e6612}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \strng{fullhash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \strng{bibnamehash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \strng{authorbibnamehash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \strng{authornamehash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \strng{authorfullhash}{e741cfb9c665572dfe6ba88deb1e9227}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decision}
+      \field{number}{4}
+      \field{title}{Implications of Visual Attention Phenomena for Models of Preferential Choice.}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{231}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1037/dec0000049
+      \endverb
+    \endentry
+    \entry{papoutsaki2016webgazer}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=bbe2f09b26238be11430f093f18b66ec}{%
+           family={Papoutsaki},
+           familyi={P\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b05fc0ad90688b074812e5e69a795bc}{%
+           family={Sangkloy},
+           familyi={S\bibinitperiod},
+           given={Patsorn},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a31f3089e52baf6d9c895388f2faca3}{%
+           family={Laskey},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaaea9b91775d1b795c8e0f9b16f628a}{%
+           family={Daskalova},
+           familyi={D\bibinitperiod},
+           given={Nediyana},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=500cc7438f13f409a2bd93a235a21469}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=797fc3624ba315db58eef7279ace5bf3}{%
+           family={Hays},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {AAAI}%
+      }
+      \strng{namehash}{ab3a389ff6b9cf1679f9e9ef43654048}
+      \strng{fullhash}{ab1a2af41b4ce4cd324092ae331a1b3e}
+      \strng{bibnamehash}{ab1a2af41b4ce4cd324092ae331a1b3e}
+      \strng{authorbibnamehash}{ab1a2af41b4ce4cd324092ae331a1b3e}
+      \strng{authornamehash}{ab3a389ff6b9cf1679f9e9ef43654048}
+      \strng{authorfullhash}{ab1a2af41b4ce4cd324092ae331a1b3e}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 25th International Joint Conference on Artificial Intelligence ({{IJCAI}})}
+      \field{title}{{{WebGazer}}: {{Scalable}} Webcam Eye Tracking Using User Interactions}
+      \field{year}{2016}
+      \field{pages}{3839\bibrangedash 3845}
+      \range{pages}{7}
+    \endentry
+    \entry{parnamets2015BiasingMoralDecisions}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=bffaa8e5ad51a3a4920989c67ced93a3}{%
+           family={P{ä}rnamets},
+           familyi={P\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9dea763621691090f7179822d39ec5fa}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Petter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af0702aa3dfff0536f79b5dd38386084}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c279b4147c3e8db2619ddcd761994d35}{%
+           family={Balkenius},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c23eaaff267b42bebf78587f3dc56ed9}{%
+           family={Spivey},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ad10031f445772530fb3e1e896a47a0}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46d445a36d807bbf82f72cb1b5da5f19}
+      \strng{fullhash}{04a5a993e59c6c08239e154eb34bd92a}
+      \strng{bibnamehash}{04a5a993e59c6c08239e154eb34bd92a}
+      \strng{authorbibnamehash}{04a5a993e59c6c08239e154eb34bd92a}
+      \strng{authornamehash}{46d445a36d807bbf82f72cb1b5da5f19}
+      \strng{authorfullhash}{04a5a993e59c6c08239e154eb34bd92a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{13}
+      \field{title}{Biasing Moral Decisions by Exploiting the Dynamics of Eye Gaze}
+      \field{volume}{112}
+      \field{year}{2015}
+      \field{pages}{4170\bibrangedash 4175}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1415250112
+      \endverb
+    \endentry
+    \entry{reeck2017SearchPredictsChanges}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0c1a4b06aad15b3eb5e9ae732b805a0}{%
+           family={Reeck},
+           familyi={R\bibinitperiod},
+           given={Crystal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbc977e12576b03900f97d58c7aaaa40}{%
+           family={Wall},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=239a4ad32577704b3dac943c8ecf5463}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{058f2463c27ba1a561d339a5e66621ea}
+      \strng{fullhash}{dbbe5a2ad3332f0940e996f34b45d732}
+      \strng{bibnamehash}{dbbe5a2ad3332f0940e996f34b45d732}
+      \strng{authorbibnamehash}{dbbe5a2ad3332f0940e996f34b45d732}
+      \strng{authornamehash}{058f2463c27ba1a561d339a5e66621ea}
+      \strng{authorfullhash}{dbbe5a2ad3332f0940e996f34b45d732}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Social Sciences}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{45}
+      \field{title}{Search Predicts and Changes Patience in Intertemporal Choice}
+      \field{volume}{114}
+      \field{year}{2017}
+      \field{pages}{11890\bibrangedash 11895}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1707040114
+      \endverb
+    \endentry
+    \entry{rigoux2014BayesianModelSelection}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b5878d17c497a2391159c1b213b54047}{%
+           family={Rigoux},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05b7fd697eb683ba5dc82aaea3e7720c}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8adee722e5b9472a3883aaaa1f9a066d}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2f55a21fe7f17b57c5b9d6678496ba0}{%
+           family={Daunizeau},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{760f49b73b1f31b25b507bdfbf4c0453}
+      \strng{fullhash}{7fa4e4eca8b361fb60ab82464f619b78}
+      \strng{bibnamehash}{7fa4e4eca8b361fb60ab82464f619b78}
+      \strng{authorbibnamehash}{7fa4e4eca8b361fb60ab82464f619b78}
+      \strng{authornamehash}{760f49b73b1f31b25b507bdfbf4c0453}
+      \strng{authorfullhash}{7fa4e4eca8b361fb60ab82464f619b78}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{title}{Bayesian Model Selection for Group Studies —{} {{Revisited}}}
+      \field{volume}{84}
+      \field{year}{2014}
+      \field{pages}{971\bibrangedash 985}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2013.08.065
+      \endverb
+    \endentry
+    \entry{salvatier2016ProbabilisticProgrammingPython}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=05c761e203cc6c586605836fa4676d10}{%
+           family={Salvatier},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f495e80088cea41d5ff3a042dfb728}{%
+           family={Wiecki},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima V.},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9524daf70c4a2e189d4efb9eb659bb8e}{%
+           family={Fonnesbeck},
+           familyi={F\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abfae452a57f1beb54edb571049fb0a2}
+      \strng{fullhash}{84d195951c6ec056c0d274af93148826}
+      \strng{bibnamehash}{84d195951c6ec056c0d274af93148826}
+      \strng{authorbibnamehash}{84d195951c6ec056c0d274af93148826}
+      \strng{authornamehash}{abfae452a57f1beb54edb571049fb0a2}
+      \strng{authorfullhash}{84d195951c6ec056c0d274af93148826}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PeerJ Computer Science}
+      \field{title}{Probabilistic Programming in {{Python}} Using {{PyMC3}}}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{pages}{e55}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7717/peerj-cs.55
+      \endverb
+    \endentry
+    \entry{schwarz1978EstimatingDimensionModel}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7434820123b7dda72fff7a710dc36bc0}{%
+           family={Schwarz},
+           familyi={S\bibinitperiod},
+           given={Gideon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7434820123b7dda72fff7a710dc36bc0}
+      \strng{fullhash}{7434820123b7dda72fff7a710dc36bc0}
+      \strng{bibnamehash}{7434820123b7dda72fff7a710dc36bc0}
+      \strng{authorbibnamehash}{7434820123b7dda72fff7a710dc36bc0}
+      \strng{authornamehash}{7434820123b7dda72fff7a710dc36bc0}
+      \strng{authorfullhash}{7434820123b7dda72fff7a710dc36bc0}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Statistics}
+      \field{number}{2}
+      \field{title}{Estimating the {{Dimension}} of a {{Model}}}
+      \field{volume}{6}
+      \field{year}{1978}
+      \field{pages}{461\bibrangedash 464}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1214/aos/1176344136
+      \endverb
+    \endentry
+    \entry{sepulveda2020VisualAttentionModulates}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=829bf8191f4ab256e63ac0768459d998}{%
+           family={Sepulveda},
+           familyi={S\bibinitperiod},
+           given={Pradyumna},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed2f2b0b20594d6d7e9b53721d1fb10}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85c78a268a85a922c1c69828eb519be5}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Ned},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=825a162a9db9c45d377857af5b041608}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fb4186bced0afe05133d6324e1622af}{%
+           family={Ortoleva},
+           familyi={O\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32b0ca9234bab83568d9f0366eecdcb}{%
+           family={De\bibnamedelima Martino},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Benedetto},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1d613ef2ed20d72ac3cf3eb739453261}{%
+           family={B{ü}chel},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=24abad9b4c940cb0e17fa5e6620ab317}{%
+           family={Wyart},
+           familyi={W\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=104f7bb5d261c4136b4e9c7aebc5a64d}{%
+           family={Filipowicz},
+           familyi={F\bibinitperiod},
+           given={Alexandre\bibnamedelima LS},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4f6d9536f435f34dc556e72394539e61}{%
+           family={Gluth},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{b517021f24cb32a350263ee2a66eb4ec}
+      \strng{fullhash}{d83205518f1898560f6275902d7f3652}
+      \strng{bibnamehash}{d83205518f1898560f6275902d7f3652}
+      \strng{authorbibnamehash}{d83205518f1898560f6275902d7f3652}
+      \strng{authornamehash}{b517021f24cb32a350263ee2a66eb4ec}
+      \strng{authorfullhash}{d83205518f1898560f6275902d7f3652}
+      \strng{editorbibnamehash}{80791e453cf566d3f1291421650381be}
+      \strng{editornamehash}{f7f66e74cf065604c312322a5bfbceaa}
+      \strng{editorfullhash}{80791e453cf566d3f1291421650381be}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife}
+      \field{title}{Visual Attention Modulates the Integration of Goal-Relevant Evidence and Not Value}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{e60705}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7554/eLife.60705
+      \endverb
+    \endentry
+    \entry{shimojo2003GazeBiasBoth}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e99e17bde0d8cd8c0f144200f2e34d6d}{%
+           family={Shimojo},
+           familyi={S\bibinitperiod},
+           given={Shinsuke},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f451381422c26409b644683e728ed2a1}{%
+           family={Simion},
+           familyi={S\bibinitperiod},
+           given={Claudiu},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d53a9678d97e6a703e423b0cda1efac9}{%
+           family={Shimojo},
+           familyi={S\bibinitperiod},
+           given={Eiko},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb2f068a27073bd3cc66262a28176226}{%
+           family={Scheier},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d31d288ecd027d751e8d4ea3ec94dd31}
+      \strng{fullhash}{02ad1a4800b7f677b283745cab8993d3}
+      \strng{bibnamehash}{02ad1a4800b7f677b283745cab8993d3}
+      \strng{authorbibnamehash}{02ad1a4800b7f677b283745cab8993d3}
+      \strng{authornamehash}{d31d288ecd027d751e8d4ea3ec94dd31}
+      \strng{authorfullhash}{02ad1a4800b7f677b283745cab8993d3}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Neuroscience}
+      \field{number}{12}
+      \field{title}{Gaze Bias Both Reflects and Influences Preference}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{1317\bibrangedash 1322}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/nn1150
+      \endverb
+    \endentry
+    \entry{shinn2020FlexibleFrameworkSimulating}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b42ebfc4b48104e23e8b80eb6ae25e1c}{%
+           family={Shinn},
+           familyi={S\bibinitperiod},
+           given={Maxwell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b98676e779ab335f579e660c3396de19}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Norman\bibnamedelima H},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1002fae2d1332a1b8481a9c52a6fe03d}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=80845f204256e2cfcbddbfbb914f4d64}{%
+           family={Kahnt},
+           familyi={K\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=526195020d8c5a2b6af989f52fe4c4ec}{%
+           family={Gold},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima I},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=651057a504f7b843f8dd606891e3771e}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d0127560e030afe2fdab5e2b35378c37}{%
+           family={Wagenmakers},
+           familyi={W\bibinitperiod},
+           given={Eric-Jan},
+           giveni={E\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{46578357fb68c5535b8b7130273c8d99}
+      \strng{fullhash}{183eb3c72f7184d271c43d8d06d6599e}
+      \strng{bibnamehash}{183eb3c72f7184d271c43d8d06d6599e}
+      \strng{authorbibnamehash}{183eb3c72f7184d271c43d8d06d6599e}
+      \strng{authornamehash}{46578357fb68c5535b8b7130273c8d99}
+      \strng{authorfullhash}{183eb3c72f7184d271c43d8d06d6599e}
+      \strng{editorbibnamehash}{43596fba19fa530492e52d7e5125ba69}
+      \strng{editornamehash}{f14b946d5a74d1286969174927ba7ab9}
+      \strng{editorfullhash}{43596fba19fa530492e52d7e5125ba69}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife}
+      \field{title}{A Flexible Framework for Simulating and Fitting Generalized Drift-Diffusion Models}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{e56938}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7554/eLife.56938
+      \endverb
+    \endentry
+    \entry{smith2018AttentionChoiceDomains}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=47b275e12ce3967f0ed41d04701ab688}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephanie\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{fullhash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{bibnamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authorbibnamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authornamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authorfullhash}{f37bba0da11a4863bb98a4b5528df620}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: General}
+      \field{number}{12}
+      \field{title}{Attention and Choice across Domains}
+      \field{volume}{147}
+      \field{year}{2018}
+      \field{pages}{1810\bibrangedash 1826}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1037/xge0000482
+      \endverb
+    \endentry
+    \entry{smith2019GazeAmplifiesValue}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=47b275e12ce3967f0ed41d04701ab688}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephanie\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{fullhash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{bibnamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authorbibnamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authornamehash}{f37bba0da11a4863bb98a4b5528df620}
+      \strng{authorfullhash}{f37bba0da11a4863bb98a4b5528df620}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{1}
+      \field{title}{Gaze {{Amplifies Value}} in {{Decision Making}}}
+      \field{volume}{30}
+      \field{year}{2019}
+      \field{pages}{116\bibrangedash 128}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1177/0956797618810521
+      \endverb
+    \endentry
+    \entry{stephan2009BayesianModelSelection}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0e0676e6d5237c94d30b708851df1f27}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Klaas\bibnamedelima Enno},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4408ea5069d397d0864c9425c9e89b5c}{%
+           family={Penny},
+           familyi={P\bibinitperiod},
+           given={Will\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d47f509e61c9543876ac29ea6eff7ea}{%
+           family={Daunizeau},
+           familyi={D\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=556462bfe7bb42eba9a687ff4153f957}{%
+           family={Moran},
+           familyi={M\bibinitperiod},
+           given={Rosalyn\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=558c08870d21f7acad878d94e125a377}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a215c129dc5c9fab549579f604a25ade}
+      \strng{fullhash}{db861cbf64f3b01885ab68af19cfcdd4}
+      \strng{bibnamehash}{db861cbf64f3b01885ab68af19cfcdd4}
+      \strng{authorbibnamehash}{db861cbf64f3b01885ab68af19cfcdd4}
+      \strng{authornamehash}{a215c129dc5c9fab549579f604a25ade}
+      \strng{authorfullhash}{db861cbf64f3b01885ab68af19cfcdd4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{number}{4}
+      \field{title}{Bayesian Model Selection for Group Studies}
+      \field{volume}{46}
+      \field{year}{2009}
+      \field{pages}{1004\bibrangedash 1017}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2009.03.025
+      \endverb
+    \endentry
+    \entry{stewart2016EyeMovementsStrategic}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=4ba857a3e0e931f2450629a5075e6612}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f9297ecd1d95048dc746913a723e280}{%
+           family={G{ä}chter},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=406e9983646cd5634a2e928bdcb44e79}{%
+           family={Noguchi},
+           familyi={N\bibinitperiod},
+           given={Takao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bccdbbd5849541588f0eddb0d9f77b49}{%
+           family={Mullett},
+           familyi={M\bibinitperiod},
+           given={Timothy\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59cf40534ac0ef045f0467c28b8ebe89}
+      \strng{fullhash}{ad391b05686a8b69df74b6a4947cda84}
+      \strng{bibnamehash}{ad391b05686a8b69df74b6a4947cda84}
+      \strng{authorbibnamehash}{ad391b05686a8b69df74b6a4947cda84}
+      \strng{authornamehash}{59cf40534ac0ef045f0467c28b8ebe89}
+      \strng{authorfullhash}{ad391b05686a8b69df74b6a4947cda84}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{number}{2-3}
+      \field{title}{Eye {{Movements}} in {{Strategic Choice}}}
+      \field{volume}{29}
+      \field{year}{2016}
+      \field{pages}{137\bibrangedash 156}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/bdm.1901
+      \endverb
+    \endentry
+    \entry{stewart2016EyeMovementsRisky}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=4ba857a3e0e931f2450629a5075e6612}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0320b97f993d26393657f195e5f82e6d}{%
+           family={Hermens},
+           familyi={H\bibinitperiod},
+           given={Frouke},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=107665e6dfe3152553f2029d3ba79f0f}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec6e90cc21eaab6aac996e1cc02ca7fc}
+      \strng{fullhash}{6632d8f2d619556f18cc72d2320b1bbe}
+      \strng{bibnamehash}{6632d8f2d619556f18cc72d2320b1bbe}
+      \strng{authorbibnamehash}{6632d8f2d619556f18cc72d2320b1bbe}
+      \strng{authornamehash}{ec6e90cc21eaab6aac996e1cc02ca7fc}
+      \strng{authorfullhash}{6632d8f2d619556f18cc72d2320b1bbe}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Behavioral Decision Making}
+      \field{number}{2-3}
+      \field{shorttitle}{Eye {{Movements}} in {{Risky Choice}}}
+      \field{title}{Eye {{Movements}} in {{Risky Choice}}: {{Eye Movements}} in {{Risky Choice}}}
+      \field{volume}{29}
+      \field{year}{2016}
+      \field{pages}{116\bibrangedash 136}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1002/bdm.1854
+      \endverb
+    \endentry
+    \entry{sui2020TimingGazecontingentDecision}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c18b59429ca863b0d8ec300eddde24f2}{%
+           family={Sui},
+           familyi={S\bibinitperiod},
+           given={Xiao-Yang},
+           giveni={X\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba24c2d9fd046b5663fa3bd0176afc77}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hong-Zhi},
+           giveni={H\bibinithyphendelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d971c7683b00e172930cc8081a517136}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Li-Lin},
+           giveni={L\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b1fa608e1279e875ca605d8adb9ae77}
+      \strng{fullhash}{682089fc0b691cf8d25d297f4308a487}
+      \strng{bibnamehash}{682089fc0b691cf8d25d297f4308a487}
+      \strng{authorbibnamehash}{682089fc0b691cf8d25d297f4308a487}
+      \strng{authornamehash}{9b1fa608e1279e875ca605d8adb9ae77}
+      \strng{authorfullhash}{682089fc0b691cf8d25d297f4308a487}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{title}{The Timing of Gaze-Contingent Decision Prompts Influences Risky Choice}
+      \field{volume}{195}
+      \field{year}{2020}
+      \field{pages}{104077}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cognition.2019.104077
+      \endverb
+    \endentry
+    \entry{sullivan2021HealthfulChoicesDependa}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=de73f11d61227ac27c47a0d17668d42b}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Nicolette\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a4f53d6dafc0ead0fb9fb0761f41d4a}{%
+           family={Huettel},
+           familyi={H\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{47c8e5735bb14625edfcb9eab73a591e}
+      \strng{fullhash}{47c8e5735bb14625edfcb9eab73a591e}
+      \strng{bibnamehash}{47c8e5735bb14625edfcb9eab73a591e}
+      \strng{authorbibnamehash}{47c8e5735bb14625edfcb9eab73a591e}
+      \strng{authornamehash}{47c8e5735bb14625edfcb9eab73a591e}
+      \strng{authorfullhash}{47c8e5735bb14625edfcb9eab73a591e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Bandiera\_abtest: a Cg\_type: Nature Research Journals Primary\_atype: Research Subject\_term: Computational neuroscience;Human behaviour Subject\_term\_id: computational-neuroscience;human-behaviour}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{title}{Healthful Choices Depend on the Latency and Rate of Information Accumulation}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41562-021-01154-0
+      \endverb
+    \endentry
+    \entry{tavares2017AttentionalDriftDiffusion}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=18e8a144896b70c9ea3c1e811bfbc987}{%
+           family={Tavares},
+           familyi={T\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e52876f830a8a20786ff3e4d7dd6f083}{%
+           family={Perona},
+           familyi={P\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eb3f609234fce005f4eb9fe6575e7e5}{%
+           family={Rangel},
+           familyi={R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f427bf59f478e8fc243f5df950f58d8f}
+      \strng{fullhash}{d8751a60565043cf0f1d9f4589b465be}
+      \strng{bibnamehash}{d8751a60565043cf0f1d9f4589b465be}
+      \strng{authorbibnamehash}{d8751a60565043cf0f1d9f4589b465be}
+      \strng{authornamehash}{f427bf59f478e8fc243f5df950f58d8f}
+      \strng{authorfullhash}{d8751a60565043cf0f1d9f4589b465be}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{title}{The {{Attentional Drift Diffusion Model}} of {{Simple Perceptual Decision}}-{{Making}}}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{468}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fnins.2017.00468
+      \endverb
+    \endentry
+    \entry{thomas2021UncoveringComputationalMechanisms}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7bc57e0261c064c9e837697f8b5fc22e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Armin\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08a3ddfcdcd5b9349760f6947ea5db0a}{%
+           family={Molter},
+           familyi={M\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cc4dcec00051d9871fcbba6b6e1450aa}{%
+           family={Verstynen},
+           familyi={V\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fcd3e30440552a7cfc509feea81f9fec}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6a2fc12d951bafb27f88fcb7cfde948d}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{f6aaeaea2b573603449fc54596ff4b70}
+      \strng{fullhash}{b5a82ded1e6056daff8ee345c4eafb3d}
+      \strng{bibnamehash}{b5a82ded1e6056daff8ee345c4eafb3d}
+      \strng{authorbibnamehash}{b5a82ded1e6056daff8ee345c4eafb3d}
+      \strng{authornamehash}{f6aaeaea2b573603449fc54596ff4b70}
+      \strng{authorfullhash}{b5a82ded1e6056daff8ee345c4eafb3d}
+      \strng{editorbibnamehash}{ff14b8410a9963303ed6108d3af36606}
+      \strng{editornamehash}{57e65eb103ae5aadbe24003c698bace6}
+      \strng{editorfullhash}{ff14b8410a9963303ed6108d3af36606}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife}
+      \field{title}{Uncovering the Computational Mechanisms Underlying Many-Alternative Choice}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{e57012}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7554/eLife.57012
+      \endverb
+    \endentry
+    \entry{thomas2019GazeBiasDifferences}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7bc57e0261c064c9e837697f8b5fc22e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Armin\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08a3ddfcdcd5b9349760f6947ea5db0a}{%
+           family={Molter},
+           familyi={M\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc6a8178296a4805e3c61205e500581}{%
+           family={Heekeren},
+           familyi={H\bibinitperiod},
+           given={Hauke\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f897372065d9edb5f7493ed97eb969}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb N.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f6aaeaea2b573603449fc54596ff4b70}
+      \strng{fullhash}{f23ec8d1bc748f23f7ac5265549ae5b6}
+      \strng{bibnamehash}{f23ec8d1bc748f23f7ac5265549ae5b6}
+      \strng{authorbibnamehash}{f23ec8d1bc748f23f7ac5265549ae5b6}
+      \strng{authornamehash}{f6aaeaea2b573603449fc54596ff4b70}
+      \strng{authorfullhash}{f23ec8d1bc748f23f7ac5265549ae5b6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{6}
+      \field{title}{Gaze Bias Differences Capture Individual Choice Behaviour}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{625\bibrangedash 635}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/s41562-019-0584-8
+      \endverb
+    \endentry
+    \entry{tsetsos2012SalienceDrivenValue}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=51755e7d606f668a09889a06588c3dba}{%
+           family={Tsetsos},
+           familyi={T\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68f539b14c5ba5fb2395b9309d555ad7}{%
+           family={Chater},
+           familyi={C\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed2f2b0b20594d6d7e9b53721d1fb10}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{219fe5a266601b7f5b8b6770ab83b496}
+      \strng{fullhash}{52dcb260334f5e4a03d7ff08a5931022}
+      \strng{bibnamehash}{52dcb260334f5e4a03d7ff08a5931022}
+      \strng{authorbibnamehash}{52dcb260334f5e4a03d7ff08a5931022}
+      \strng{authornamehash}{219fe5a266601b7f5b8b6770ab83b496}
+      \strng{authorfullhash}{52dcb260334f5e4a03d7ff08a5931022}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{24}
+      \field{title}{Salience Driven Value Integration Explains Decision Biases and Preference Reversal}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{9659\bibrangedash 9664}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1119569109
+      \endverb
+    \endentry
+    \entry{tversky1992AdvancesProspectTheory}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{bibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorbibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authornamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Risk and Uncertainty}
+      \field{number}{4}
+      \field{shorttitle}{Advances in Prospect Theory}
+      \field{title}{Advances in Prospect Theory: {{Cumulative}} Representation of Uncertainty}
+      \field{volume}{5}
+      \field{year}{1992}
+      \field{pages}{297\bibrangedash 323}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/BF00122574
+      \endverb
+    \endentry
+    \entry{usher2001TimeCoursePerceptual}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aed2f2b0b20594d6d7e9b53721d1fb10}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa623109668f355db4430ccca298f768}{%
+           family={{McClelland}},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ada2493790a66b2a72873dc68f60a60e}
+      \strng{fullhash}{ada2493790a66b2a72873dc68f60a60e}
+      \strng{bibnamehash}{ada2493790a66b2a72873dc68f60a60e}
+      \strng{authorbibnamehash}{ada2493790a66b2a72873dc68f60a60e}
+      \strng{authornamehash}{ada2493790a66b2a72873dc68f60a60e}
+      \strng{authorfullhash}{ada2493790a66b2a72873dc68f60a60e}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0033-295X}
+      \field{journaltitle}{Psychological Review}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shortjournal}{Psychological Review}
+      \field{shorttitle}{The time course of perceptual choice}
+      \field{title}{The time course of perceptual choice: The leaky, competing accumulator model}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{550\bibrangedash 592}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1037/0033-295X.108.3.550
+      \endverb
+    \endentry
+    \entry{weber1997ReasonsRankDependentUtility}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1b1c0416ef0661419df4da116bc4004c}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Elke},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39e5863ba7317c5337e614f3bbdb9c54}{%
+           family={Kirsner},
+           familyi={K\bibinitperiod},
+           given={Britt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \strng{fullhash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \strng{bibnamehash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \strng{authorbibnamehash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \strng{authornamehash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \strng{authorfullhash}{df6f6ed6f7fa91ab8821fd13c5bbb628}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Uncertainty}
+      \field{number}{1}
+      \field{title}{Reasons for {{Rank}}-{{Dependent Utility Evaluation}}}
+      \field{volume}{14}
+      \field{year}{1997}
+      \field{pages}{41\bibrangedash 61}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1023/A:1007769703493
+      \endverb
+    \endentry
+    \entry{weilbacher2021InfluenceVisualAttention}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a352e07cb42eecd3df5737cce5d4ca6b}{%
+           family={Weilbächer},
+           familyi={W\bibinitperiod},
+           given={Regina\bibnamedelima Agnes},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7300dfcb057f39ff264da35ee58159}{%
+           family={Rieskamp},
+           familyi={R\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f6d9536f435f34dc556e72394539e61}{%
+           family={Gluth},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99940e9586a8d005c58202bf81e81100}
+      \strng{fullhash}{0ad133eb976f19a72a9336ac32577ef7}
+      \strng{bibnamehash}{0ad133eb976f19a72a9336ac32577ef7}
+      \strng{authorbibnamehash}{0ad133eb976f19a72a9336ac32577ef7}
+      \strng{authornamehash}{99940e9586a8d005c58202bf81e81100}
+      \strng{authorfullhash}{0ad133eb976f19a72a9336ac32577ef7}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0010-0277}
+      \field{journaltitle}{Cognition}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shortjournal}{Cognition}
+      \field{title}{The influence of visual attention on memory-based preferential choice}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{volume}{215}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{104804}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cognition.2021.104804
+      \endverb
+    \endentry
+    \entry{westbrook2020DopaminePromotesCognitive}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0380fd59d0deb228cdfb52b42f0bfdca}{%
+           family={Westbrook},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fba9ee06b78216773f2fd84cbe49575}{%
+           family={Bosch},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=1d422ca12c1d49b9036964addc4f1f57}{%
+           family={M{ä}{ä}tt{ä}},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c843c02ab786d302f582688e428a13c6}{%
+           family={Hofmans},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccb84bba58f73be75a051128bad74c3c}{%
+           family={Papadopetraki},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1340b694415deb19987c5581f7c9a5b9}{%
+           family={Cools},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c18e62e740a6fd196a9566542ca0e65a}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{df11c81c6bdf1db27aa249c025338bdf}
+      \strng{fullhash}{0024d3f0219e05591afca29e3ca1543a}
+      \strng{bibnamehash}{0024d3f0219e05591afca29e3ca1543a}
+      \strng{authorbibnamehash}{0024d3f0219e05591afca29e3ca1543a}
+      \strng{authornamehash}{df11c81c6bdf1db27aa249c025338bdf}
+      \strng{authorfullhash}{0024d3f0219e05591afca29e3ca1543a}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Report}
+      \field{journaltitle}{Science}
+      \field{number}{6484}
+      \field{title}{Dopamine Promotes Cognitive Effort by Biasing the Benefits versus Costs of Cognitive Work}
+      \field{volume}{367}
+      \field{year}{2020}
+      \field{pages}{1362\bibrangedash 1366}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aaz5891
+      \endverb
+    \endentry
+    \entry{westfall2017StatisticalDetailsDefault}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f3d375ac44c7d54d90652f643cf90500}{%
+           family={Westfall},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3d375ac44c7d54d90652f643cf90500}
+      \strng{fullhash}{f3d375ac44c7d54d90652f643cf90500}
+      \strng{bibnamehash}{f3d375ac44c7d54d90652f643cf90500}
+      \strng{authorbibnamehash}{f3d375ac44c7d54d90652f643cf90500}
+      \strng{authornamehash}{f3d375ac44c7d54d90652f643cf90500}
+      \strng{authorfullhash}{f3d375ac44c7d54d90652f643cf90500}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{{arXiv}:1702.01201 [stat]}
+      \field{month}{2}
+      \field{title}{Statistical details of the default priors in the Bambi library}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1702.01201
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1702.01201
+      \endverb
+    \endentry
+    \entry{yang2020WebcambasedOnlineEyetracking}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8382cc5f677b3efb18384de102f05955}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xiaozhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d436b25b6b5e86b9dee1c54ede6b41cc}{%
+           family={Krajbich},
+           familyi={K\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {PsyArXiv}%
+      }
+      \strng{namehash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \strng{fullhash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \strng{bibnamehash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \strng{authorbibnamehash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \strng{authornamehash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \strng{authorfullhash}{3f136e8e9a1e80af1e20c0fe62b74708}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Webcam-Based Online Eye-Tracking for Behavioral Research}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.31234/osf.io/qhme6
+      \endverb
+    \endentry
+    \entry{yechiam2013LossaversionLossattentionImpact}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af6c7748913df2e12bcbb3a966bacb14}{%
+           family={Yechiam},
+           familyi={Y\bibinitperiod},
+           given={Eldad},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=150555db8192ed22863347f26d77f6bd}{%
+           family={Hochman},
+           familyi={H\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \strng{fullhash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \strng{bibnamehash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \strng{authorbibnamehash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \strng{authornamehash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \strng{authorfullhash}{14085472f2ff47ebe6d15b70c5ceb867}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Cognitive Psychology}
+      \field{number}{2}
+      \field{shorttitle}{Loss-Aversion or Loss-Attention}
+      \field{title}{Loss-Aversion or Loss-Attention: {{The}} Impact of Losses on Cognitive Performance}
+      \field{volume}{66}
+      \field{year}{2013}
+      \field{pages}{212\bibrangedash 231}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.cogpsych.2012.12.001
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
