@@ -126,7 +126,7 @@ The file `data/processed/main/subject_summary.csv` contains a participant-level 
 
 Analyses can be reproduced by installing required packages described in `requirements.txt`, installing the source package (`pip install -e .`) and using the included `Makefile`. The meta-target `all` includes all registered analyses and is automatically run with the `make` command.
 
-The `src` folder additionally contains a copy of the [`myfuncs`](https://github.com/moltaire/myfuncs) package used for statistical tests and plotting setup.
+The `src` folder additionally contains a copy of my [`myfuncs`](https://github.com/moltaire/myfuncs) package used for statistical tests and plotting setup.
 
 | Target                    | Description                                                                                                                                                                                                          |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
