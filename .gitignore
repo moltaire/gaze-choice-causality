@@ -87,7 +87,10 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+/data/raw/pilot*
+/data/raw/pooled
+/data/processed/pilot*
+/data/processed/pooled
 
 # Mac OS-specific storage files
 .DS_Store
