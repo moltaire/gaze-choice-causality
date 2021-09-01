@@ -74,7 +74,7 @@ def make_psychometric_figure(choices, bins):
     axs[0].legend(title="Favoured")
     axs[0].set_title("Duration manipulation")
 
-    # Sequence manipulation
+    # Order manipulation
     axs[1] = plot_psychometric(
         choices, bins=bins, bin_labels=bin_centers, ax=axs[1], alpha=0.5
     )
@@ -90,7 +90,7 @@ def make_psychometric_figure(choices, bins):
     axs[1].set_ylabel(None)
     axs[1].yaxis.set_tick_params(labelbottom=True)
     axs[1].legend(title="Last stage\nfavoured")
-    axs[1].set_title("Sequence manipulation")
+    axs[1].set_title("Order manipulation")
 
     # Panel labels
     fig.tight_layout(w_pad=4)
@@ -384,7 +384,7 @@ def make_individual_change_figure(args):
             ]
         ),
         0.95,
-        "Sequence",
+        "Order",
         va="bottom",
         ha="center",
         fontweight="bold",
@@ -503,10 +503,10 @@ def main():
         "Intercept": "Intercept",
         "delta_ev_z": "ΔEV ($Hp - Hm$)",
         "duration_favours_fx": "Duration ($Hp$ or $p$ longer)",
-        "last_stage_favours_fx": "Sequence ($Hp$ or $p$ last)",
+        "last_stage_favours_fx": "Order ($Hp$ or $p$ last)",
         "by_attribute_fx": "Presentation (by alternative)",
         "duration_favours_fx:by_attribute_fx": "Duration x Presentation",
-        "last_stage_favours_fx:by_attribute_fx": "Sequence x Presentation",
+        "last_stage_favours_fx:by_attribute_fx": "Order x Presentation",
     }
 
     fig, ax = plt.subplots(figsize=my.utilities.cm2inch(4.5, 4.5))
