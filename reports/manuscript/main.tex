@@ -127,7 +127,7 @@ Recent work in multiattribute decisions found that the time point at which infor
 \end{figure}
 
 % Summary of study
-Here, we add to this body of research and jointly investigate these multiple potentially causal effects of the information search (presentation duration and order) on choice. We performed a preregistered study using a task that involved incentivized choices between two risky gambles, and was designed to investigate the independent contributions of presentation duration and order to and possible interactions in the choice process. Notably, we tested the duration and order effects on two levels, namely, the level of alternatives and the level of attribute dimensions.
+Here, we add to this body of research and jointly investigate these multiple potentially causal effects of the information search (presentation duration and order) on choice. We performed a preregistered study using a task that involved incentivized choices between two risky gambles, and was designed to investigate the independent contributions of presentation duration and order and their possible interactions in the choice process. Notably, we tested the duration and order effects on two levels, namely, the level of alternatives and the level of attribute dimensions.
 
 % Hypotheses
 Specifically, we hypothesized that presentation \emph{duration} affects choices in two ways: First, in line with gaze-dependent accumulation models, longer presented alternatives should be chosen more frequently (Figure \ref{fig:hypotheses} H1a). In addition, we hypothesized that alternatives with higher values on longer presented attributes are chosen more frequently (Figure \ref{fig:hypotheses} H1b).
@@ -201,26 +201,26 @@ All                &        0.62 &    0.62 &      0.63 &    0.62 &  0.62 \\
 
 % Table 2: Regression analysis results
 \begin{table*}[tb!]
-	\centering
-	{
-		\begin{tabular}{lrrrrrrr}
-			\toprule
-			\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{95\% HDI} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
-			\cline{4-5}
-			Term & Mean & SD & Lower & Upper & $\hat{R}$ & ESS (bulk) & ESS (tail)  \\
-			\cmidrule[0.4pt]{1-8}
-			\textbf{Intercept} & 0.35 & 0.11 & 0.12 & 0.56 & 1.01 & 351 & 586  \\
-			\textbf{EV diff.} ($Hp - Hm$; z-scored) & 1.96 & 0.10 & 1.77 & 2.15 & 1.00 & 763 & 1962  \\
-			Duration ($Hp$ or $p$ longer) & $-0.02$ & 0.04 & $-0.10$ & 0.05 & 1.00 & 8644 & 6667  \\
-			\textbf{Order} ($Hp$ or $p$ last) & 0.17 & 0.04 & 0.09 & 0.25 & 1.00 & 7602 & 6943  \\
-			Format (by alt.) & $-0.06$ & 0.04 & $-0.13$ & 0.01 & 1.00 & 10598 & 6192  \\
-			Duration $\times$ Format & 0.01 & 0.08 & $-0.13$ & 0.16 & 1.00 & 9983 & 6276  \\
-			Order $\times$ Format & 0.09 & 0.08 & $-0.06$ & 0.23 & 1.00 & 10963 & 6350  \\
-			\bottomrule
-		\end{tabular}
-	}
-	\caption{\textbf{Fixed effects estimates from Bayesian mixed-effects logistic regression.} Dependent variable: $Hp$ choice. Categorical predictors (Duration, Order, Format) were effect-coded, and positive estimates are associated with the level indicated in parentheses. See \nameref{sec:methods} for details on predictor variables. ESS: Effective sample size. Results obtained from two MCMC chains with 5000 posterior samples and 1000 tuning samples. Terms credibly different from zero are shown in boldface.}
-	\label{tab:regression}
+    \centering
+    {
+        \begin{tabular}{lrrrrrrr}
+            \toprule
+            \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{95\% HDI} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
+            \cline{4-5}
+            Term & Mean & SD & Lower & Upper & $\hat{R}$ & ESS (bulk) & ESS (tail)  \\
+            \cmidrule[0.4pt]{1-8}
+            \textbf{Intercept} & 0.35 & 0.11 & 0.12 & 0.56 & 1.01 & 351 & 586  \\
+            \textbf{EV diff.} ($Hp - Hm$; z-scored) & 1.96 & 0.10 & 1.77 & 2.15 & 1.00 & 763 & 1962  \\
+            Duration ($Hp$ or $p$ longer) & $-0.02$ & 0.04 & $-0.10$ & 0.05 & 1.00 & 8644 & 6667  \\
+            \textbf{Order} ($Hp$ or $p$ last) & 0.17 & 0.04 & 0.09 & 0.25 & 1.00 & 7602 & 6943  \\
+            Format (by alt.) & $-0.06$ & 0.04 & $-0.13$ & 0.01 & 1.00 & 10598 & 6192  \\
+            Duration $\times$ Format & 0.01 & 0.08 & $-0.13$ & 0.16 & 1.00 & 9983 & 6276  \\
+            Order $\times$ Format & 0.09 & 0.08 & $-0.06$ & 0.23 & 1.00 & 10963 & 6350  \\
+            \bottomrule
+        \end{tabular}
+    }
+    \caption{\textbf{Fixed effects estimates from Bayesian mixed-effects logistic regression.} Dependent variable: $Hp$ choice. Categorical predictors (Duration, Order, Format) were effect-coded, and positive estimates are associated with the level indicated in parentheses. See \nameref{sec:methods} for details on predictor variables. ESS: Effective sample size. Results obtained from two MCMC chains with 5000 posterior samples and 1000 tuning samples. Terms credibly different from zero are shown in boldface.}
+    \label{tab:regression}
 \end{table*}
 
 We first analysed choice behaviour using a Bayesian mixed-effects logistic regression model, predicting choice from differences in expected value and effect-coded predictors indicating presentation format, the alternative favoured by presentation duration, the alternative favoured by the last presentation stage, and interaction terms of the duration and order effects with the presentation format (see \nameref{sec:methods}; Table~\ref{tab:regression}).
@@ -234,7 +234,7 @@ Next, we addressed our hypotheses regarding effects of presentation duration and
 \begin{figure*}[t]
     \centering
     \includegraphics[width=0.9\textwidth]{figures/choice_analyses_individual_changes.png}
-    \caption{\textbf{Effects of presentation duration and order on choice.} Panels \textbf{a}-\textbf{d} show individual and mean changes in choice probabilities of the higher probability alternative $Hp$, for duration (\textbf{a, b}) and order manipulations (\textbf{c, d}) in alternative- (\textbf{a, c}) and attribute-wise (\textbf{b, d}) presentation. Each semi-transparent connected pair of dots indicates choice probabilities for $Hp$ of a single participant in trials where $Hm$ vs. $Hp$ was favoured by the presentation manipulation. Group means are indicated by opaque slate dots and lines. Cohen's $d$ with HDI$_{95\%}$ obtained from paired BEST analysis, and the Bayes factors in favour of a positive directed over a null effect (BF$_{+0}$; see \nameref{sec:methods}) or its reciprocal in favour of a null effect (BF$_{0+}$) are given for each panel. Panels \textbf{e-f} show corresponding distributions of individual changes (individual slopes in panels \textbf{a-d}), with colors coding the size of individual changes. Small points and horizontal lines above histograms indicate mean and HDI$_{95\%}$ change (gray if HDI$_{95\%}$ includes 0, red if 0 is excluded).}
+    \caption{\textbf{Effects of presentation duration and order on choice.} Panels \textbf{a}-\textbf{d} show individual and mean changes in choice probabilities of the higher probability alternative $Hp$, for duration (\textbf{a, b}) and order manipulations (\textbf{c, d}) in alternative- (\textbf{a, c}) and attribute-wise (\textbf{b, d}) presentation. Each semi-transparent connected pair of dots indicates choice probabilities for $Hp$ of a single participant in trials where $Hm$ vs. $Hp$ was favoured by the presentation manipulation. Group means are indicated by opaque large dots and lines. Cohen's $d$ with HDI$_{95\%}$ obtained from paired BEST analysis, and the Bayes factors in favour of a positive directed over a null effect (BF$_{+0}$; see \nameref{sec:methods}) or its reciprocal in favour of a null effect (BF$_{0+}$) are given for each panel. Panels \textbf{e-f} show corresponding distributions of individual changes (individual slopes in panels \textbf{a-d}), with colors coding the size of individual changes. Small points and horizontal lines above histograms indicate mean and HDI$_{95\%}$ change (gray if HDI$_{95\%}$ includes 0, red if 0 is excluded).}
     \label{fig:choiceprobabilitychanges}
 \end{figure*}
 
@@ -243,7 +243,7 @@ To this end, we computed individuals' probabilities of choosing $Hp$ when it was
 
 On average and across presentation formats, participants chose $Hp$ with a probability of 62.0\% when it was favoured by presentation duration, and 62.3\% when it was not.
 There was strong evidence against an effect of presentation duration on choice probability across presentation formats (mean difference = $-0.2\%$ $[-1.1\%, 0.6\%]$; mean $d = -0.04$ $[-0.20, 0.11]$; BF$_{{+}0} = 0.053$, BF$_{0{+}} = 18.84$).
-Separate tests for each presentation format confirmed evidence against an effect of presentation duration on choice probability, with strong evidence against an effect in alternative-wise presentation (H1a; mean difference = $-0.1\%$ $[-1.5\%, 1.1\%]$; mean $d = -0.02$ $[-0.18, 0.13]$; BF$_{0{+}} = 15.43$; Figure \ref{fig:choiceprobabilitychanges}a) and strong evidence against an effect in attribute-wise presentation (H1b; mean difference = $-0.4\%$ $[-1.6\%, 0.8\%]$; mean $d = -0.05$ $[-0.21, 0.10]$; BF$_{0{+}} = 19.34$; Figure \ref{fig:choiceprobabilitychanges}b). 
+Separate tests for each presentation format confirmed evidence against an effect of presentation duration on choice probability, with strong evidence against an effect in alternative-wise presentation (H1a; mean difference = $-0.1\%$ $[-1.5\%, 1.1\%]$; mean $d = -0.02$ $[-0.18, 0.13]$; BF$_{0{+}} = 15.43$; Figure \ref{fig:choiceprobabilitychanges}a, e) and strong evidence against an effect in attribute-wise presentation (H1b; mean difference = $-0.4\%$ $[-1.6\%, 0.8\%]$; mean $d = -0.05$ $[-0.21, 0.10]$; BF$_{0{+}} = 19.34$; Figure \ref{fig:choiceprobabilitychanges}b, f). 
 
 \subsection*{Strong evidence for effect of presentation order in alternative-wise presentation}
 
@@ -251,7 +251,7 @@ We furthermore hypothesized that alternatives shown last (in alternative-wise pr
 To test the marginal effect of presentation order on choice (across presentation formats), we computed the individual probabilities of choosing $Hp$ when it was favored by the last presentation stage (because either the alternative $Hp$ or the attribute $p$ was shown last) and when it was not, and performed directed Bayes factor $t$-tests and Bayesian estimation of their difference. 
 Across presentation formats, participants chose the $Hp$ alternative with a probability of 63.3\% when it was favoured in the final presentation stage, and 60.9\% when it was not (Table \ref{tab:choiceprobs}).
 There was extreme evidence in favour of an effect of presentation order on choice across presentation formats (mean difference = $2.4\%$ $[1.2\%, 3.5\%]$; mean $d = 0.32$ $[0.16, 0.47]$; BF$_{{+}0} = 806.85$). 
-Separate tests for each presentation format showed that the effect was more specific to alternative-wise presentation, with extreme evidence for an effect (H2a; mean difference = $3.0\%$ $[1.6\%, 4.4\%]$; mean $d = 0.33$ $[0.17, 0.49]$; BF$_{{+}0} = 845.71$; Figure \ref{fig:choiceprobabilitychanges}c). In attribute-wise presentation, evidence anecdotally favoured a positive effect (H2b; mean difference = $1.5\%$ $[0.0\%, 3.1\%]$; mean $d = 0.15$ $[-0.01, 0.31]$; 96.67\% of posterior mass above zero; BF$_{{+}0} = 1.83$; Figure \ref{fig:choiceprobabilitychanges}d).
+Separate tests for each presentation format showed that the effect was more specific to alternative-wise presentation, with extreme evidence for an effect (H2a; mean difference = $3.0\%$ $[1.6\%, 4.4\%]$; mean $d = 0.33$ $[0.17, 0.49]$; BF$_{{+}0} = 845.71$; Figure \ref{fig:choiceprobabilitychanges}c, g). In attribute-wise presentation, evidence anecdotally favoured a positive effect (H2b; mean difference = $1.5\%$ $[0.0\%, 3.1\%]$; mean $d = 0.15$ $[-0.01, 0.31]$; 96.67\% of posterior mass above zero; BF$_{{+}0} = 1.83$; Figure \ref{fig:choiceprobabilitychanges}d, h).
 
 
 % Discussion
@@ -318,7 +318,7 @@ All data collection and analysis procedures were preregistered on the Open Scien
 \label{methods:participants}
 The experiment was conducted online and participants were recruited via the platform Prolific.co. Our target sample size was 200 participants. We accepted entries on the Prolific platform until 200 complete submissions were reached. Sample size was determined to exceed that of previous laboratory-based experiments addressing related questions \parencite[e.g.,][]{armel2008BiasingSimpleChoices,liu2020ExploitingDynamicsEye,parnamets2015BiasingMoralDecisions,sui2020TimingGazecontingentDecision,fisher2021IntertemporalChoicesAre}, accounting for the possibility of lower quality data due to the online setting. 
 Participants were paid £3.75 for completing the study, which took around 30 minutes. They had the chance to win a bonus amount ranging from £0 to £9.85, as one of their chosen gambles was randomly determined and played out after the experiment. The experiment included webcam-based eye tracking (see \nameref{sec:supplement}), so only participants with a working webcam using Google Chrome or Mozilla Firefox could participate.
-Participants gave informed consent prior to participation in the study.
+Participants gave informed consent prior to participation in the study. Ethics approval for this study was obtained from the German Association for Experimental Economic Research e.V. All methods were performed in accordance with the relevant guidelines and regulations.
 
 Participants were excluded from the analysis without replacement if one of the following criteria was met: i) The participant chose a dominated alternative more than 4 times (20\% of catch trials, see below). ii) The participant reported to be red-green colorblind or having difficulty distinguishing the colors in the task. iii) The participant reported having technical difficulties that prevented them from diligent execution of the task. iv) The participant's self-reported decision strategy suggested that task instructions were misunderstood. v) The participant reported nonserious participation in the task \parencite{aust2013SeriousnessChecksAre}.
 
