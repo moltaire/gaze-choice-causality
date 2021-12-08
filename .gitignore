@@ -7,6 +7,7 @@ synthetic.csv
 predictions.csv
 # Also ignore other large files
 glm_idata.nc
+glm2_rev-1_idata.nc
 ddm_fitting_results.pkl
 
 # Byte-compiled / optimized / DLL files
