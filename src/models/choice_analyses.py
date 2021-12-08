@@ -128,6 +128,32 @@ def run_choice_analyses():
     )
     save_idata_results(idata=glm_idata, label="glm", output_dir=args.output_dir)
 
+    # 1B (Revision 1) GLM: choice ~ 1 + ΔEV + longer_shown + favoured_by_last_stage + presentation + interactions
+    # Notably now including interaction of longer_shown and favoured_by_last_stage
+    glm_idata = run_lmm_random_slopes_intercepts(
+        data=choices,
+        dependent_var="choose_hp",
+        predictors=[
+            "delta_ev_z",
+            "duration_favours_fx",
+            "last_stage_favours_fx",
+            "by_attribute_fx",
+        ],
+        interactions=[
+            "duration_favours_fx:by_attribute_fx",
+            "last_stage_favours_fx:by_attribute_fx",
+            "duration_favours_fx:last_stage_favours_fx",
+        ],
+        subject_col="subject_id",
+        family="bernoulli",
+        cores=1,
+        draws=5000,
+        random_seed=args.seed,
+    )
+    save_idata_results(idata=glm_idata, label="glm2_rev-1", output_dir=args.output_dir)
+
+    
+
     # 2. Run BF t-tests of sequence and duration main effects
     ## Compute individual marginal choice probabilities for each condition
     for independent_var, ivar_label in zip(
